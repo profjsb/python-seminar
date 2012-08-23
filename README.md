@@ -3,7 +3,7 @@ Python Computing for Science
 
 #### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### Wheeler 122: Monday 2 - 5 PM FALL 2012 (CCN #060802) #####
+##### Wheeler 221: Monday 2 - 5 PM FALL 2012 (CCN #060802) #####
 
 #### Synopsis ####
 
