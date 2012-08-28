@@ -35,6 +35,8 @@ Onward	| final project work	  |
 
 Each Monday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
 
+There will be a regular help session every Friday morning before homeworks are due, 10am-12 in Evans 481.  Email [Isaac](mailto:ishivvers@berkeley.edu) with any questions if you cannot attend.
+
 #### Contact ####
 
-Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
+Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)).  You can also contact the GSI, Isaac, at ([ishivvers@astro.berkeley.edu](ishivvers@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
