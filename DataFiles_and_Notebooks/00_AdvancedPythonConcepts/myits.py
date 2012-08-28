@@ -52,7 +52,7 @@ step downward until end is reached. start is required, end and step are keywords
 def fib(start=0,end=None):
     a = long(start)
     b = start + 1L
-    while 1 and ((a < end) or (end is None)):
+    while ((a < end) or (end is None)):
         yield a
         a, b = b, a + b
 
