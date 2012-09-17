@@ -18,10 +18,10 @@ Date | Content | Leader
 Aug 27  | **Advanced Python Language Concepts** (geared towards Boot Camp graduates)	| Josh
 Sep 3	| holiday
 Sep 10  | **Advanced versioning, application building (optparse), debugging & testing**	| Isaac
-Sep 17  |(matplotlib) **Advanced plotting and data vizualization, mayavi**	 | Fernando 
+Sep 17  |(matplotlib) **Advanced plotting and data vizualization, mayavi**	 | Stefan/Paul 
 Sep 24	| **scipy, numpy, stats**	 | Berian/Brad
 Oct 1  | **scikits: image, learn**   | Josh/Joey
-Oct 8  | **interacting with the world** (xml-rpc, urllib, sending and receiving email, serial)	| Isaac
+Oct 8  | **interacting with the world** (xml-rpc, urllib, sending and receiving email, serial)	| Josh
 Oct 15	| **database interaction, large datasets (HDF5)**	| Josh
 Oct 22	| **GUI (Tkinter, GTK, Traits)**	 | Josh
 Oct 29	| **parallelization (ipython), cuda**	|	Fernando/Paul
