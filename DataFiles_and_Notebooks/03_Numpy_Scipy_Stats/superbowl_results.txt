@@ -1,0 +1,46 @@
+Year,SB,Winner,Pts,Loser,Pts,MVP,Stadium,City,State
+2010,XLV,Green Bay Packers,31,Pittsburgh Steelers,25,Aaron Rodgers,Cowboys Stadium,Arlington,Texas
+2009,XLIV,New Orleans Saints,31,Indianapolis Colts,17,Drew Brees,Sun Life Stadium,Miami,Florida
+2008,XLIII,Pittsburgh Steelers,27,Arizona Cardinals,23,Santonio Holmes,Raymond James Stadium,Tampa,Florida
+2007,XLII,New York Giants,17,New England Patriots,14,Eli Manning,University of Phoenix Stadium,Glendale,Arizona
+2006,XLI,Indianapolis Colts,29,Chicago Bears,17,Peyton Manning,Dolphin Stadium,Miami,Florida
+2005,XL,Pittsburgh Steelers,21,Seattle Seahawks,10,Hines Ward,Ford Field,Detroit,Michigan
+2004,XXXIX,New England Patriots,24,Philadelphia Eagles,21,Deion Branch,Alltel Stadium,Jacksonville,Florida
+2003,XXXVIII,New England Patriots,32,Carolina Panthers,29,Tom Brady,Reliant Stadium,Houston,Texas
+2002,XXXVII,Tampa Bay Buccaneers,48,Oakland Raiders,21,Dexter Jackson,Qualcomm Stadium,San Diego,California
+2001,XXXVI,New England Patriots,20,St. Louis Rams,17,Tom Brady,Louisiana Superdome,New Orleans,Louisiana
+2000,XXXV,Baltimore Ravens,34,New York Giants,7,Ray Lewis,Raymond James Stadium,Tampa,Florida
+1999,XXXIV,St. Louis Rams,23,Tennessee Titans,16,Kurt Warner,Georgia Dome,Atlanta,Georgia
+1998,XXXIII,Denver Broncos,34,Atlanta Falcons,19,John Elway+,Pro Player Stadium,Miami,Florida
+1997,XXXII,Denver Broncos,31,Green Bay Packers,24,Terrell Davis,Qualcomm Stadium,San Diego,California
+1996,XXXI,Green Bay Packers,35,New England Patriots,21,Desmond Howard,Louisiana Superdome,New Orleans,Louisiana
+1995,XXX,Dallas Cowboys,27,Pittsburgh Steelers,17,Larry Brown,Sun Devil Stadium,Tempe,Arizona
+1994,XXIX,San Francisco 49ers,49,San Diego Chargers,26,Steve Young+,Joe Robbie Stadium,Miami,Florida
+1993,XXVIII,Dallas Cowboys,30,Buffalo Bills,13,Emmitt Smith+,Georgia Dome,Atlanta,Georgia
+1992,XXVII,Dallas Cowboys,52,Buffalo Bills,17,Troy Aikman+,Rose Bowl,Pasadena,California
+1991,XXVI,Washington Redskins,37,Buffalo Bills,24,Mark Rypien,Metrodome,Minneapolis,Minnesota
+1990,XXV,New York Giants,20,Buffalo Bills,19,Ottis Anderson,Tampa Stadium,Tampa,Florida
+1989,XXIV,San Francisco 49ers,55,Denver Broncos,10,Joe Montana+,Louisiana Superdome,New Orleans,Louisiana
+1988,XXIII,San Francisco 49ers,20,Cincinnati Bengals,16,Jerry Rice+,Joe Robbie Stadium,Miami,Florida
+1987,XXII,Washington Redskins,42,Denver Broncos,10,Doug Williams,Jack Murphy Stadium,San Diego,California
+1986,XXI,New York Giants,39,Denver Broncos,20,Phil Simms,Rose Bowl,Pasadena,California
+1985,XX,Chicago Bears,46,New England Patriots,10,Richard Dent+,Louisiana Superdome,New Orleans,Louisiana
+1984,XIX,San Francisco 49ers,38,Miami Dolphins,16,Joe Montana+,Stanford Stadium,Palo Alto,California
+1983,XVIII,Los Angeles Raiders,38,Washington Redskins,9,Marcus Allen+,Tampa Stadium,Tampa,Florida
+1982,XVII,Washington Redskins,27,Miami Dolphins,17,John Riggins+,Rose Bowl,Pasadena,California
+1981,XVI,San Francisco 49ers,26,Cincinnati Bengals,21,Joe Montana+,Pontiac Silverdome,Pontiac,Michigan
+1980,XV,Oakland Raiders,27,Philadelphia Eagles,10,Jim Plunkett,Louisiana Superdome,New Orleans,Louisiana
+1979,XIV,Pittsburgh Steelers,31,Los Angeles Rams,19,Terry Bradshaw+,Rose Bowl,Pasadena,California
+1978,XIII,Pittsburgh Steelers,35,Dallas Cowboys,31,Terry Bradshaw+,Orange Bowl,Miami,Florida
+1977,XII,Dallas Cowboys,27,Denver Broncos,10,Harvey MartinRandy White+,Superdome,New Orleans,Louisiana
+1976,XI,Oakland Raiders,32,Minnesota Vikings,14,Fred Biletnikoff+,Rose Bowl,Pasadena,California
+1975,X,Pittsburgh Steelers,21,Dallas Cowboys,17,Lynn Swann+,Orange Bowl,Miami,Florida
+1974,IX,Pittsburgh Steelers,16,Minnesota Vikings,6,Franco Harris+,Tulane Stadium,New Orleans,Louisiana
+1973,VIII,Miami Dolphins,24,Minnesota Vikings,7,Larry Csonka+,Rice Stadium,Houston,Texas
+1972,VII,Miami Dolphins,14,Washington Redskins,7,Jake Scott,Memorial Colesium,Los Angeles,California
+1971,VI,Dallas Cowboys,24,Miami Dolphins,3,Roger Staubach+,Tulane Stadium,New Orleans,Louisiana
+1970,V,Baltimore Colts,16,Dallas Cowboys,13,Chuck Howley,Orange Bowl,Miami,Florida
+1969,IV,Kansas City Chiefs,23,Minnesota Vikings,7,Len Dawson+,Tulane Stadium,New Orleans,Louisiana
+1968,III,New York Jets,16,Baltimore Colts,7,Joe Namath+,Orange Bowl,Miami,Florida
+1967,II,Green Bay Packers,33,Oakland Raiders,14,Bart Starr+,Orange Bowl,Miami,Florida
+1966,I,Green Bay Packers,35,Kansas City Chiefs,10,Bart Starr+,Memorial Colesium,Los Angeles,California
