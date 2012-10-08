@@ -1,0 +1,45 @@
+Image Acquisition by Jim Misti
+
+http://www.mistisoftware.com/astronomy/index_fits.htm
+
+OGS 32" RC/SBIG STL-11000M FITS files (Ready for Processing)
+
+Nine new image file sets posted on March 15, 2009
+
+Listed below are links to FITS files for several of the data sets I have taken
+with the Optical Guidance Systems 32" Ritchey-Chretien Telescope and SBIG
+STL-11000m CCD camera.
+
+These files will only be of interest to astronomical imagers who have the
+proper software to complete the processing of the images.
+
+The files have been calibrated (dark subtracted, flat fielded, stacked, and
+aligned). They are ready for RGB combine and/or LRGB or HaLRGB combine in the
+program of your choice. The R/G/B filters used for all data were the SBIG set.
+I've experimented with various RGB color combine ratios, and my current
+starting ratios for the SBIG filters are R:G:B = 1.3 : 1.0 : 1.6. The H-Alpha
+images were taken with the Astrodon 6nm filter.
+
+Feel free to download these files and try your hand at processing images taken
+with a large scope under dark skies.
+
+Should you decide to publish any resulting processed image (on a web site or
+in print), the only thing I ask is that the credit line include the phrase
+"Image Acquisition by Jim Misti".
+
+You should be able to download each file by right-clicking on the file name,
+then selecting "Save Target As" (Internet Explorer) or "Save Link Target As"
+(Netscape) and then specifying a location on your PC to save the file.
+
+Each file is just over 20meg in size. If you don't have a broadband connection
+but would like to receive the files on cd-rom, please send a stamped (6
+ounces), self-addressed envelope of at least 6x9" size to
+
+Jim Misti
+22 Susanna Way
+Newtown, PA 18940
+USA.
+
+Unless I'm overwhelmed by cd-rom requests, I'll provide these at no cost to
+the requestor.
+
