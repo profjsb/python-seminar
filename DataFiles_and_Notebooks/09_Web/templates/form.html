@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% set page_title = 'My Form' %}
+
+{% block content %}
+            <form action="welcome" method="POST">
+            What is your name?
+            <input type="text" name="name" />
+            <input type="submit" />
+            </form>
+{% endblock %}
