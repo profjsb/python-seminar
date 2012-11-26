@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="480"
+   viewBox="0 0 600 480"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="LeftRiemann2.svg"
+   inkscape:export-filename="/home/stefan/akad/voordragte/2010/trento/cython/sketse/LeftRiemann2.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
+  <metadata
+     id="metadata228">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="725"
+     id="namedview226"
+     showgrid="false"
+     inkscape:zoom="0.98333333"
+     inkscape:cx="279.66102"
+     inkscape:cy="240"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <desc
+     id="desc4">Produced by GNUPLOT 4.2 patchlevel 3  </desc>
+  <defs
+     id="defs6">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 240 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="600 : 240 : 1"
+       inkscape:persp3d-origin="300 : 160 : 1"
+       id="perspective230" />
+    <circle
+       id="gpDot"
+       r="1" />
+    <path
+       id="gpPt0"
+       style="stroke-width:0.148"
+       d="M-1,0 h2 M0,-1 v2" />
+    <path
+       id="gpPt1"
+       style="stroke-width:0.148"
+       d="M-1,-1 L1,1 M1,-1 L-1,1" />
+    <path
+       id="gpPt2"
+       style="stroke-width:0.148"
+       d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+    <rect
+       id="gpPt3"
+       style="stroke-width:0.148"
+       x="-1"
+       y="-1"
+       width="2"
+       height="2" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt4"
+       style="fill:currentColor; stroke:none" />
+    <circle
+       id="gpPt5"
+       style="stroke-width:0.148"
+       cx="0"
+       cy="0"
+       r="1" />
+    <use
+       xlink:href="#gpPt5"
+       id="gpPt6"
+       style="fill:currentColor; stroke:none" />
+    <path
+       id="gpPt7"
+       style="stroke-width:0.148"
+       d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt8"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt9"
+       transform="rotate(180)" />
+    <use
+       xlink:href="#gpPt9"
+       id="gpPt10"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt11"
+       transform="rotate(45)" />
+    <use
+       xlink:href="#gpPt11"
+       id="gpPt12"
+       style="fill:currentColor; stroke:none" />
+  </defs>
+  <g
+     style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g22" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g24">
+    <path
+       d="M63.5,426.0 L50.0,426.0 "
+       id="path26" />
+    <g
+       transform="translate(44.8,432.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g28">
+      <text
+         id="text30"> 0</text>
+    </g>
+    <path
+       d="M63.5,375.9 L50.0,375.9 "
+       id="path32" />
+    <g
+       transform="translate(44.8,382.6)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g34">
+      <text
+         id="text36"> 1</text>
+    </g>
+    <path
+       d="M63.5,325.7 L50.0,325.7 "
+       id="path38" />
+    <g
+       transform="translate(44.8,332.4)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g40">
+      <text
+         id="text42"> 2</text>
+    </g>
+    <path
+       d="M63.5,275.6 L50.0,275.6 "
+       id="path44" />
+    <g
+       transform="translate(44.8,282.3)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g46">
+      <text
+         id="text48"> 3</text>
+    </g>
+    <path
+       d="M63.5,225.5 L50.0,225.5 "
+       id="path50" />
+    <g
+       transform="translate(44.8,232.2)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g52">
+      <text
+         id="text54"> 4</text>
+    </g>
+    <path
+       d="M63.5,175.4 L50.0,175.4 "
+       id="path56" />
+    <g
+       transform="translate(44.8,182.1)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g58">
+      <text
+         id="text60"> 5</text>
+    </g>
+    <path
+       d="M63.5,125.2 L50.0,125.2 "
+       id="path62" />
+    <g
+       transform="translate(44.8,131.9)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g64">
+      <text
+         id="text66"> 6</text>
+    </g>
+    <path
+       d="M63.5,75.1 L50.0,75.1 "
+       id="path68" />
+    <g
+       transform="translate(44.8,81.8)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g70">
+      <text
+         id="text72"> 7</text>
+    </g>
+    <path
+       d="M63.5,25.0 L50.0,25.0 "
+       id="path74" />
+    <g
+       transform="translate(44.8,31.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g76">
+      <text
+         id="text78"> 8</text>
+    </g>
+    <path
+       d="M63.5,426.0 L63.5,439.5 "
+       id="path80" />
+    <g
+       transform="translate(63.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g82">
+      <text
+         id="text84"> 0</text>
+    </g>
+    <path
+       d="M188.0,426.0 L188.0,439.5 "
+       id="path86" />
+    <g
+       transform="translate(188.0,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g88">
+      <text
+         id="text90"> 0.5</text>
+    </g>
+    <path
+       d="M312.5,426.0 L312.5,439.5 "
+       id="path92" />
+    <g
+       transform="translate(312.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g94">
+      <text
+         id="text96"> 1</text>
+    </g>
+    <path
+       d="M437.0,426.0 L437.0,439.5 "
+       id="path98" />
+    <g
+       transform="translate(437.0,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g100">
+      <text
+         id="text102"> 1.5</text>
+    </g>
+    <path
+       d="M561.5,426.0 L561.5,439.5 "
+       id="path104" />
+    <g
+       transform="translate(561.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g106">
+      <text
+         id="text108"> 2</text>
+    </g>
+    <path
+       d="M63.5,426.0 L561.5,426.0 M63.5,426.0 L63.5,25.0 "
+       id="path110" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:3.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g112" />
+  <g
+     style="fill:none; color:red; stroke:currentColor; stroke-width:3.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g114">
+    <path
+       style="stroke:rgb(  0,   0, 255)"
+       d="M63.5,426.0 L188.0,426.0 L63.5,426.0 Z "
+       id="path116" />
+    <path
+       style="stroke:rgb(  0,   0, 255)"
+       d="M188.0,426.0 L188.0,419.7 L312.5,419.7 L312.5,426.0 L188.0,426.0 Z "
+       id="path118" />
+    <path
+       style="stroke:rgb(  0,   0, 255)"
+       d="M312.5,426.0 L312.5,375.9 L437.0,375.9 L437.0,426.0 L312.5,426.0 Z "
+       id="path120" />
+    <path
+       style="stroke:rgb(  0,   0, 255)"
+       d="M437.0,426.0 L437.0,256.8 L561.5,256.8 L561.5,426.0 L437.0,426.0 Z "
+       id="path122" />
+  </g>
+  <g
+     style="fill:none; color:red; stroke:rgb(  0,   0, 255); stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g124" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g126" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g128">
+    <path
+       d="M63.5,426.0 L50.0,426.0 "
+       id="path130" />
+    <g
+       transform="translate(44.8,432.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g132">
+      <text
+         id="text134"> 0</text>
+    </g>
+    <path
+       d="M63.5,375.9 L50.0,375.9 "
+       id="path136" />
+    <g
+       transform="translate(44.8,382.6)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g138">
+      <text
+         id="text140"> 1</text>
+    </g>
+    <path
+       d="M63.5,325.7 L50.0,325.7 "
+       id="path142" />
+    <g
+       transform="translate(44.8,332.4)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g144">
+      <text
+         id="text146"> 2</text>
+    </g>
+    <path
+       d="M63.5,275.6 L50.0,275.6 "
+       id="path148" />
+    <g
+       transform="translate(44.8,282.3)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g150">
+      <text
+         id="text152"> 3</text>
+    </g>
+    <path
+       d="M63.5,225.5 L50.0,225.5 "
+       id="path154" />
+    <g
+       transform="translate(44.8,232.2)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g156">
+      <text
+         id="text158"> 4</text>
+    </g>
+    <path
+       d="M63.5,175.4 L50.0,175.4 "
+       id="path160" />
+    <g
+       transform="translate(44.8,182.1)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g162">
+      <text
+         id="text164"> 5</text>
+    </g>
+    <path
+       d="M63.5,125.2 L50.0,125.2 "
+       id="path166" />
+    <g
+       transform="translate(44.8,131.9)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g168">
+      <text
+         id="text170"> 6</text>
+    </g>
+    <path
+       d="M63.5,75.1 L50.0,75.1 "
+       id="path172" />
+    <g
+       transform="translate(44.8,81.8)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g174">
+      <text
+         id="text176"> 7</text>
+    </g>
+    <path
+       d="M63.5,25.0 L50.0,25.0 "
+       id="path178" />
+    <g
+       transform="translate(44.8,31.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:end"
+       id="g180">
+      <text
+         id="text182"> 8</text>
+    </g>
+    <path
+       d="M63.5,426.0 L63.5,439.5 "
+       id="path184" />
+    <g
+       transform="translate(63.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g186">
+      <text
+         id="text188"> 0</text>
+    </g>
+    <path
+       d="M188.0,426.0 L188.0,439.5 "
+       id="path190" />
+    <g
+       transform="translate(188.0,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g192">
+      <text
+         id="text194"> 0.5</text>
+    </g>
+    <path
+       d="M312.5,426.0 L312.5,439.5 "
+       id="path196" />
+    <g
+       transform="translate(312.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g198">
+      <text
+         id="text200"> 1</text>
+    </g>
+    <path
+       d="M437.0,426.0 L437.0,439.5 "
+       id="path202" />
+    <g
+       transform="translate(437.0,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g204">
+      <text
+         id="text206"> 1.5</text>
+    </g>
+    <path
+       d="M561.5,426.0 L561.5,439.5 "
+       id="path208" />
+    <g
+       transform="translate(561.5,459.7)"
+       style="stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00pt; text-anchor:middle"
+       id="g210">
+      <text
+         id="text212"> 2</text>
+    </g>
+    <path
+       d="M63.5,426.0 L561.5,426.0 M63.5,426.0 L63.5,25.0 "
+       id="path214" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:3.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g216" />
+  <g
+     style="fill:none; color:red; stroke:currentColor; stroke-width:3.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g218">
+    <path
+       style="stroke:rgb(255,   0,   0)"
+       d="M63.5,426.0 L68.5,426.0 L73.6,426.0 L78.6,426.0 L83.6,426.0 L88.7,425.9 L93.7,425.9 L98.7,425.9    L103.7,425.8 L108.8,425.7 L113.8,425.6 L118.8,425.4 L123.9,425.3 L128.9,425.1 L133.9,424.9 L139.0,424.6    L144.0,424.3 L149.0,424.0 L154.0,423.6 L159.1,423.2 L164.1,422.7 L169.1,422.2 L174.2,421.6 L179.2,421.0    L184.2,420.3 L189.3,419.5 L194.3,418.7 L199.3,417.9 L204.3,416.9 L209.4,415.9 L214.4,414.8 L219.4,413.7    L224.5,412.5 L229.5,411.1 L234.5,409.8 L239.6,408.3 L244.6,406.7 L249.6,405.1 L254.7,403.3 L259.7,401.5    L264.7,399.6 L269.7,397.5 L274.8,395.4 L279.8,393.1 L284.8,390.8 L289.9,388.3 L294.9,385.8 L299.9,383.1    L305.0,380.3 L310.0,377.4 L315.0,374.3 L320.0,371.2 L325.1,367.9 L330.1,364.5 L335.1,360.9 L340.2,357.2    L345.2,353.4 L350.2,349.5 L355.3,345.4 L360.3,341.1 L365.3,336.7 L370.3,332.2 L375.4,327.5 L380.4,322.7    L385.4,317.7 L390.5,312.5 L395.5,307.2 L400.5,301.7 L405.6,296.1 L410.6,290.2 L415.6,284.2 L420.7,278.1    L425.7,271.7 L430.7,265.2 L435.7,258.5 L440.8,251.6 L445.8,244.6 L450.8,237.3 L455.9,229.9 L460.9,222.2    L465.9,214.4 L471.0,206.4 L476.0,198.1 L481.0,189.7 L486.0,181.1 L491.1,172.2 L496.1,163.1 L501.1,153.9    L506.2,144.4 L511.2,134.7 L516.2,124.7 L521.3,114.6 L526.3,104.2 L531.3,93.6 L536.3,82.7 L541.4,71.7    L546.4,60.4 L551.4,48.8 L556.5,37.0 L561.5,25.0 "
+       id="path220" />
+  </g>
+  <g
+     style="fill:none; color:red; stroke:rgb(255,   0,   0); stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g222" />
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter"
+     id="g224" />
+  <text
+     xml:space="preserve"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+     x="183.20576"
+     y="140.33899"
+     id="text3036"><tspan
+       sodipodi:role="line"
+       id="tspan3038"
+       x="183.20576"
+       y="140.33899">N=4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+     x="182.03389"
+     y="188.13559"
+     id="text3040"><tspan
+       sodipodi:role="line"
+       x="182.03389"
+       y="188.13559"
+       id="tspan3048">dx=2/N</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 187.11864,410.84746 0,-195.25424"
+     id="path3044" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 311.18644,361.01694 0,-145.42372"
+     id="path3046" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#fffb43;fill-opacity:1;stroke:#47b318;stroke-width:2.0999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3052"
+     sodipodi:cx="110.84746"
+     sodipodi:cy="327.45764"
+     sodipodi:rx="5.0847459"
+     sodipodi:ry="5.0847459"
+     d="m 115.9322,327.45764 a 5.0847459,5.0847459 0 1 1 -10.16949,0 5.0847459,5.0847459 0 1 1 10.16949,0 z"
+     transform="translate(-47.79661,97.627119)" />
+  <path
+     d="m 115.9322,327.45764 a 5.0847459,5.0847459 0 1 1 -10.16949,0 5.0847459,5.0847459 0 1 1 10.16949,0 z"
+     sodipodi:ry="5.0847459"
+     sodipodi:rx="5.0847459"
+     sodipodi:cy="327.45764"
+     sodipodi:cx="110.84746"
+     id="path3826"
+     style="fill:#fffb43;fill-opacity:1;stroke:#47b318;stroke-width:2.0999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     sodipodi:type="arc"
+     transform="translate(76.271186,93.559322)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#fffb43;fill-opacity:1;stroke:#47b318;stroke-width:2.0999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3828"
+     sodipodi:cx="110.84746"
+     sodipodi:cy="327.45764"
+     sodipodi:rx="5.0847459"
+     sodipodi:ry="5.0847459"
+     d="m 115.9322,327.45764 a 5.0847459,5.0847459 0 1 1 -10.16949,0 5.0847459,5.0847459 0 1 1 10.16949,0 z"
+     transform="translate(200.33898,47.79661)" />
+  <path
+     d="m 115.9322,327.45764 a 5.0847459,5.0847459 0 1 1 -10.16949,0 5.0847459,5.0847459 0 1 1 10.16949,0 z"
+     sodipodi:ry="5.0847459"
+     sodipodi:rx="5.0847459"
+     sodipodi:cy="327.45764"
+     sodipodi:cx="110.84746"
+     id="path3830"
+     style="fill:#fffb43;fill-opacity:1;stroke:#47b318;stroke-width:2.0999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     sodipodi:type="arc"
+     transform="translate(325.42373,-71.186441)" />
+</svg>

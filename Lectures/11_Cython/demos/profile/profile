@@ -1,0 +1,1 @@
+valgrind --tool=callgrind --callgrind-out-file=callgrind.log python sometask.py

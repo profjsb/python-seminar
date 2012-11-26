@@ -1,0 +1,128 @@
+.. -*- rst -*-
+
+=======================
+Problem-set: AY250 2012
+=======================
+
+.. contents::
+   :local:
+
+.. |space| unicode:: U+0020
+
+Please do explore beyond the problems given, and feel free to ask
+questions at any time.
+
+.. Some exercises borrowed from Pauli Virtanen's 2011 lecture
+
+
+Cythonizing
+-----------
+
+Implement a function in Cython that computes ``x**3 - 4x + 2`` on each element
+of a large floating point array.  Is this function faster than NumPy
+by default?  If so, can you explain why?
+
+Benchmarking the NumPy code in IPython::
+
+  import numpy as np
+  x = np.linspace(0, 1, 10000)
+  %timeit x**3 - 4*x + 2
+
+(do the same for your Cython code)
+
+
+Wrapping C
+----------
+
+In the ``wrapping`` directory is a simple C library computing the ``sin``
+elementwise for a Numpy array. The header ``stuff.h`` defines a function with
+the signature::
+
+    void compute(int n, double *input, double *output)
+
+which takes two C arrays of doubles containing ``n`` doubles.
+
+Write a Cython wrapper::
+
+    def do_compute(double[::1] input_array):
+        ...
+        return output_array
+
+for this function.  Note: whenever ``::1`` is specified for an axis, it means
+that that dimension should be contiguous in memory.
+
+You can find the pointer to an array with, e.g., ``&input_array[0, 0]``.  E.g.,
+this will yield the equivalent of ``double *``, ready for use in C.
+
+The behaviour of the function can be verified with ``run.py``.
+
+
+Conway's Game of Life
+---------------------
+
+.. topics: Numpy interface, general Numpy usage
+
+The Game of Life is a well-known cellular automaton that exhibits interesting
+behavior. It is defined on a grid of cells, where each cell has 8 neighbors::
+
+   .........
+   .........
+   ...ooo...
+   ...oxo...
+   ...ooo...
+   .........
+   .........
+
+The update rule to get a new state from the old one is:
+
+- Cells with with fewer than 2 or more than 3 live neighbors die.
+- Cell with exactly 3 live neighbors becomes alive.
+
+Write a Cython function ``life_update(old_state, new_state)`` that
+takes an `N x N` Numpy array `old_state` of type ``int`` containing
+the old state, and writes the new state to a similar array
+`new_state`. Just use four nested for-loops, but remember to add type
+declarations.
+
+Image files containing well-known starting shapes are supplied (use
+``matplotlib.pyplot.imread`` to read them into Numpy arrays). Assign them at
+the center of a big grid, and see what happens!
+
+- ``glider.png``: the glider
+
+- ``glider_gun.png``: the Gosper glider gun
+
+- ``breeder.png``: one sort of a breeder
+
+- ... and others!
+
+These examples come from the very interesting Game of Life simulator
+`Golly <http://golly.sf.net/>`__.
+
+.. topic:: Animation in Matplotlib
+
+   The Matplotlib gallery contains an example on how to `animate an image
+   <http://matplotlib.sourceforge.net/examples/animation/dynamic_image.html>`__.
+
+
+L-Systems
+---------
+Implement an `L-system <http://en.wikipedia.org/wiki/L-system>`__ in Cython.
+Try, for example, to build a Sierpinski Triangle or the Dragon Curve.  If you
+want, you can first implement it in pure Python, and then add the type
+information later.
+
+
+Hints
+`````
+
+ - Use your Cython program to generate coordinates, then simply "connect the
+   dots" using ``matplotlib`` (``import matplotlib.pyplot as plt;
+   plt.plot(...)``).
+
+ - Cython can accelerate operations on non-numerical types too.  For example,
+   if you store your coordinates in a list, you can use::
+
+     cdef list L = []
+
+   For dictionaries, the type is ``dict``.
