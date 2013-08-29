@@ -23,4 +23,4 @@ yogi  = Parent(first_name="Yogi",weight=34.0,last_name="Morgan")
 sally = Parent(first_name="Sally",weight=30.0,last_name="Klein")
 oski = Cub(first_name="Oski",weight=39.0,father=yogi,mother=sally)
 
-# oski.configure_traits()
+oski.configure_traits()

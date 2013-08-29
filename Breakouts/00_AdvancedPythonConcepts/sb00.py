@@ -1,8 +1,10 @@
 '''
 Python Computing for Science
-Lecture 1 (Advanced Python Language Concepts) -- breakout solution
+Lecture 0 (Advanced Python Language Concepts) -- breakout solution
+  - get's us used to using yield
+created by Josh Bloom at UC Berkeley, 2010, 2012, 2013 (ucbpythonclass+seminar@gmail.com)
 
-ishivvers@berkeley.edu
+ishivvers@berkeley.edu, joshbloom@berkeley.edu
 '''
 
 import numpy as np
@@ -50,10 +52,10 @@ def approx_Pi_2(accuracy=.001, print_result=False):
     # much better, no risk of infinite loops!
     # note that this function exits when it hits StopIteration, though, so the print_result
     # statement MUST be BEFORE the raise statement
-'''
-EXAMPLE:
+
+#EXAMPLE:
 for val in approx_Pi_2(print_result=True): continue
-'''
+
 
 
 def accelerate(series):
@@ -65,7 +67,7 @@ def accelerate(series):
         yield s2 - ((s2 - s1)**2)/(s0 - 2.0*s1 + s2)
         s0, s1, s2 = s1, s2, series.next()
 
-'''
+
 # EXAMPLE: converge much faster using accelerate()
 steps = 0
 for val in accelerate(approx_Pi()):
@@ -74,4 +76,3 @@ for val in accelerate(approx_Pi()):
     if abs(np.pi - val)<.001:
         break
 print 'took {} steps to get a value of {}\naccuracy: {}'.format(steps, val, abs(np.pi-val))
-'''

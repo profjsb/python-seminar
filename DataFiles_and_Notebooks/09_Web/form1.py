@@ -6,7 +6,7 @@ app.debug = True
 ## we can tell our view functions what HTTP methods it
 ## is allowed to respond to
 @app.route('/welcome', methods=['GET', 'POST'])
-def welcome():
+def welcomehi():
 
     if request.method == 'POST':
 	    username = request.form['name']
@@ -14,7 +14,7 @@ def welcome():
 	    	return "Hey %s, what's up?" % username
 	    else:
 	    	return """We really want to know your name. Add it 
-	    	          <a href='%s'>here</a>""" % url_for("welcome")
+	    	          <a href='%s'>here</a>""" % url_for("welcomehi")
     else:
     	## this is a normal GET request
         return '''
@@ -27,7 +27,7 @@ def welcome():
 @app.route("/")
 def redirect_to_login():
 	## 301 is an HTTP error code
-	return redirect(url_for("welcome"),301)
+	return redirect(url_for("welcomehi"),301)
 
 if __name__ == "__main__":
     app.run()

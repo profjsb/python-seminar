@@ -1,4 +1,3 @@
-cimport numpy as cnp
 import numpy as np
 
 def foo(double[:, ::1] arr):

@@ -10,6 +10,6 @@ class Counter(HasTraits):
         self.value +=1
     view = View('value', Item('add_one', show_label=False ))
 
-#Counter().edit_traits()
-#GUI().start_event_loop()
-Counter().configure_traits()
+Counter().edit_traits()
+GUI().start_event_loop()
+#Counter().configure_traits()

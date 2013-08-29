@@ -52,7 +52,7 @@ def pdot(double[:, ::1] A,
         for i in prange(rows_A):
 
             # And multiply by every column in B
-            for j in range(cols_B):
+            for j in prange(cols_B):
                 s = 0
                 for k in range(cols_A):
                     s = s + A[i, k] * B[k, j]

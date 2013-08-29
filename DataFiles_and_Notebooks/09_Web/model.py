@@ -17,7 +17,7 @@ class User(db.Model):
         self.email = email
 
     def __repr__(self):
-        return '<User %r>' % self.username
+        return 'Yo, my name is %r' % self.username
 
 class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -43,7 +43,8 @@ except:
 
 @app.route("/")
 def get_users():
-   return repr([x.username for x in User.query.all()])
+   print " ".join([str(x) for x in User.query.all()])
+   return repr([x.email for x in User.query.all()])
 
 @app.route("/admin")
 def get_admin_email():

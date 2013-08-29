@@ -22,7 +22,7 @@ def show_post(post_id):
 
 # here we show off multiple input and defaults
 @app.route("/doc/<int:docid>/page/<int:pageid>")
-@app.route("/doc/<int:docid>", defaults={'pageid': 1})
+@app.route("/doc/<int:docid>", defaults={'pageid': 10})
 def show_document_pages(docid,pageid):
     return "Doc = %i  and Page = %i" % (docid,pageid)
 

@@ -14,9 +14,11 @@ def login():
         return "please log in..."
 
 @app.route("/")
+@app.route("/index.html")
 def redirect_to_login():
 	## 301 is an HTTP error code
 	return redirect("/login",301)
 
+#app.run()
 if __name__ == "__main__":
     app.run()
