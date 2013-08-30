@@ -8,7 +8,7 @@ import math
 
 def pi_series(stop_when_close=False,close=0.00001):
     """ generate the series 4*(1 - 1/3 + 1/5 - 1/7 ...), which should be pi.
-      We have Libnitz to thanks for this
+      We have Libnitz to thank for this
     """
     thesum = 0.0
     i = 1.0 ; thesign = 1.0
