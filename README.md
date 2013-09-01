@@ -3,7 +3,7 @@ Python Computing for Science
 
 #### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### Wheeler 221: Monday 2 - 5 PM FALL 2012 (CCN #060802) #####
+##### HFA B-1: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
 
 #### Synopsis ####
 
@@ -15,21 +15,6 @@ This class is for any student working in a quantative discpline and with familia
 
 Date | Content | Leader
 :--- | --------| ---: |
-Aug 27  | **Advanced Python Language Concepts** (geared towards Boot Camp graduates)	| Josh
-Sep 3	| holiday
-Sep 10  | **Advanced versioning, application building (optparse), debugging & testing**	| Isaac
-Sep 17  |(matplotlib) **Advanced plotting and data vizualization, mayavi**	 | Stefan/Paul 
-Sep 24	| **scipy, numpy, stats**	 | Berian/Brad
-Oct 1  | **interacting with the world** (xml-rpc, urllib, sending and receiving email, serial)	| Josh
-Oct 8  | **scikits: image, learn**   | Stefan/Joey
-Oct 15	| **database interaction, large datasets (HDF5)**	| Josh
-Oct 22	| **GUI (Tkinter, GTK, Traits)**	 | Josh
-Oct 29	| **parallelization (ipython), cuda**	|	Fernando/Paul
-Nov 5	| **web-frameworks (CGI), Flask/Bottle**	| Josh
-Nov 12  | holiday
-Nov 19	| **Symbolic, mathematical and Bayesian programming: simpy, sage, R, rpy2, pyMC/emc** | Berian/Joey
-Nov 26	| **Cython; wrapper around legacy code** -- FORTRAN, C, etc |	Erik
-Onward	| final project work	  |
 
 #### Workflow ####
 
