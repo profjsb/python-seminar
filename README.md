@@ -3,7 +3,7 @@ Python Computing for Science
 
 #### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### HFA B-1: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
+##### 405 Soda Hall: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
 
 #### Synopsis ####
 
@@ -24,4 +24,4 @@ There will be a regular help session every Friday morning before homeworks are d
 
 #### Contact ####
 
-Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)).  You can also contact the GSI, Isaac, at ([ishivvers@astro.berkeley.edu](ishivvers@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
+Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)).  You can also contact the GSI, Adam, at ([amorgan@astro.berkeley.edu](amorgan@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
