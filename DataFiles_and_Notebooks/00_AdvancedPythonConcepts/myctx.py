@@ -1,6 +1,6 @@
 """
 PYTHON SEMINAR AY250 example context managers and decorators 
-   created by Josh Bloom at UC Berkeley, 2010,2012 (ucbpythonclass+seminar@gmail.com)
+   created by Josh Bloom at UC Berkeley, 2010,2012,2013 (ucbpythonclass+seminar@gmail.com)
 """
 
 class MyDecor:
