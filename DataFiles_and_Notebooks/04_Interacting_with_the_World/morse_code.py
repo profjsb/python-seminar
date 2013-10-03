@@ -15,6 +15,19 @@ def blink(s, morse_code):
         time.sleep(0.50)
         s.setDTR(False) # Turns light off
 
+def blink_arduino(s,morse_code):
+    if morse_code == " ":
+        time.sleep(1.0)
+    if morse_code == ".":
+        s.write("1") # Turns light on
+        time.sleep(0.25)
+        s.write("0") # Turns light off
+    if morse_code == "-":
+        s.write("1") # Turns light on
+        time.sleep(0.50)
+        s.write("0") # Turns light off
+
+
 morsetab = {
         'A': '.-',              'a': '.-',
         'B': '-...',            'b': '-...',
@@ -58,7 +71,13 @@ morsetab = {
 print "Please enter message to transmit."
 msg = raw_input()
 byte_length = len(msg)
-s = serial.Serial('/dev/tty.usbserial')
+
+arduino = True
+if arduino:
+    s = serial.Serial("/dev/tty.usbserial-A6008cMI")  # use this line to connect to an arduino
+else:
+    s = serial.Serial('/dev/tty.usbserial')
+
 start_time = time.time()
 for c in msg:
     m_code = "!"
@@ -69,7 +88,10 @@ for c in msg:
     if m_code != "!":
         print c, m_code
         for elem in m_code:
-            blink(s, elem)
+            if not arduino:
+                blink(s, elem)
+            else:
+                blink_arduino(s,elem)
             time.sleep(0.1)
 end_time = time.time()
 s.close()
