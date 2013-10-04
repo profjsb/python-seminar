@@ -3,7 +3,7 @@ Python Computing for Science
 
 #### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### 405 Soda Hall: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
+##### HFA B-1: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
 
 #### Synopsis ####
 
