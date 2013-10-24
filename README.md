@@ -1,4 +1,4 @@
-Python Computing for Science
+Python Computing for Data Science
 ==============
 
 #### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
@@ -15,12 +15,28 @@ This class is for any student working in a quantative discpline and with familia
 
 Date | Content | Leader
 :--- | --------| ---: |
+Aug 29  | Advanced Python Language Concepts (geared towards Boot Camp graduates)	|Josh
+Sep 5   | scipy, numpy               |Fernando
+Sep 12	| Advanced versioning, application building (optparse), debugging & testing     |Josh
+Sep 19  | Advanced plotting, Notebooks and data vizualization, mayavi	 | Fernando
+Sep 26  | Machine Learning | Josh
+Oct 3  | Interacting with the world (xml-rpc, urllib, sending and receiving email, serial) |  Josh
+Oct 10	| Database interaction, large datasets (HDF5)	| Josh
+Oct 17  | Pandas and Timeseries Modelling | *Wes McKinney* 
+Oct 24	| GUI (Tkinter, GTK, Traits)	 | Josh
+Oct 31	| Parallelism	| Paul/Fernando
+Nov 7	| Web frameworks & RESTful APIs, Flask		| Josh
+Nov 14	| Bayesian programming & Symbolic math   | *Joey Richards*
+Nov 21  | Cython; wrapper around legacy code -- FORTRAN, C, etc | Paul
+Nov 28	| holiday | 
+Dec 5/Onward   | final project work |
+Onward	| 
 
 #### Workflow ####
 
-Each Monday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
+Each Thursday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
 
-There will be a regular help session every Friday morning before homeworks are due, 10am-12 in Evans 481.  Email [Isaac](mailto:ishivvers@berkeley.edu) with any questions if you cannot attend.
+There will be a regular help session every Monday morning before homeworks are due, 10am-12 in Evans 481.  Email [Josh](mailto:joshbloom@berkeley.edu) with any questions if you cannot attend.
 
 #### Contact ####
 
