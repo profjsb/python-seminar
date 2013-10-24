@@ -1,7 +1,14 @@
-from enthought.traits.api import HasTraits, Str, Float, Instance; import math
-from enthought.traits.ui.api import View, Item, ButtonEditor
+try:
+  from enthought.traits.api import HasTraits, Str, Float, Instance; import math
+  from enthought.traits.ui.api import View, Item, ButtonEditor
+except:
+  from traits.api import HasTraits, Str, Float, Instance; import math
+  from traitsui.api import View, Item, ButtonEditor
+
+from matplotlib.figure import Figure
 
 from mpl_figure_editor import MPLFigureEditor
+import numpy as np
 
 class Test(HasTraits):
 
@@ -15,8 +22,8 @@ class Test(HasTraits):
   def __init__(self):
      super(Test, self).__init__()
      axes = self.figure.add_subplot(111)
-     t = linspace(0, 2*pi, 200)
-     axes.plot(sin(t)*(1+0.5*cos(11*t)), cos(t)*(1+0.5*cos(11*t)))
+     t = np.linspace(0, 2*np.pi, 200)
+     axes.plot(np.sin(t)*(1+0.5*np.cos(11*t)), np.cos(t)*(1+0.5*np.cos(11*t)))
 
 t = Test()
 t.configure_traits()

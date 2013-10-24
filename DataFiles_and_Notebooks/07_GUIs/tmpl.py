@@ -1,18 +1,25 @@
 from mpl_figure_editor import MPLFigureEditor
 
+# do pip install wx
 import wx
-
+ 
 import matplotlib
 # We want matplotlib to use a wxPython backend
-matplotlib.use('WXAgg')
+matplotlib.use('WxAgg')
 from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as FigureCanvas
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_wx import NavigationToolbar2Wx
 
-from enthought.traits.api import Any, Instance
+try:
+    from enthought.traits.api import Any, Instance
 
-from enthought.traits.api import HasTraits
-from enthought.traits.ui.api import View, Item
+    from enthought.traits.api import HasTraits
+    from enthought.traits.ui.api import View, Item
+except:
+    from traits.api import Any, Instance
+    from traits.api import HasTraits
+    from traitsui.api import View, Item
+
 from numpy import sin, cos, linspace, pi
 
 class Test(HasTraits):

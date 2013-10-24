@@ -1,6 +1,11 @@
-from enthought.traits.api import HasTraits, Str, \
+try:
+	from enthought.traits.api import HasTraits, Str, \
             Int, Directory, RGBColor, Float, Array, Enum
-from enthought.traits.ui.api import View, Item, Group
+	from enthought.traits.ui.api import View, Item, Group
+except:
+	from traits.api import HasTraits, Str, \
+            Int, Directory, RGBColor, Float, Array, Enum
+	from traitsui.api import View, Item, Group	
 
 class Bear(HasTraits):
     name = Str
