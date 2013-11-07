@@ -10,8 +10,13 @@ Flask-Login, including remember me functionality.
 """
 from flask import Flask, request, render_template, redirect, url_for, flash
 from flask.ext.login import (LoginManager, current_user, login_required,
-                            login_user, logout_user, UserMixin, AnonymousUser,
+                            login_user, logout_user, UserMixin,
                             confirm_login, fresh_login_required)
+
+try:
+    from flask.ext.login import AnonymousUser
+except:
+    from flask.ext.login import AnonymousUserMixin as AnonymousUser
 
 class User(UserMixin):
     def __init__(self, name, id, active=True):
@@ -102,4 +107,4 @@ def logout():
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8080)
