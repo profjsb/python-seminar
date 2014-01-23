@@ -41,3 +41,7 @@ There will be a regular help session every Monday morning before homeworks are d
 #### Contact ####
 
 Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)).  You can also contact the GSI, Adam, at ([amorgan@astro.berkeley.edu](amorgan@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/profjsb/python-seminar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
