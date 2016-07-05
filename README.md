@@ -9,7 +9,7 @@ Python Computing for Data Science
 
 [Python](http://python.org) is becoming the *de facto* [superglue language for modern scientific computing](http://www.reddit.com/r/Python/comments/y9rku/astrophysicist_joshua_bloom_on_python_as_super/). In this course we will learn Pythonic interactions with databases, imaging processing, advanced statistical and numerical packages, web frameworks, machine-learning, and parallelism. Each week will involve lectures and coding projects. In the final project, students will build a working codebase useful for their own research domain.
 
-This class is for any student working in a quantative discpline and with familiarily with Python. Those who completed the [Python Bootcamp](http://www.pythonbootcamp.info) or equivalent will be eligible. 
+This class is for any student working in a quantitative discipline and with familiarity with Python. Those who completed the [Python Bootcamp](http://www.pythonbootcamp.info) or equivalent will be eligible
 
 #### Course Schedule ####
 
