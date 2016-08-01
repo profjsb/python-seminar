@@ -1,43 +1,58 @@
 Python Computing for Data Science
 ==============
 
-#### An Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
+#### An Upper-Division Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### HFA B-1: Thursday 1 - 4 PM FALL 2013 (CCN #06080) #####
+##### Campbell Hall: Friday 1 - 4 PM FALL 2016 #####
 
 #### Synopsis ####
 
-[Python](http://python.org) is becoming the *de facto* [superglue language for modern scientific computing](http://www.reddit.com/r/Python/comments/y9rku/astrophysicist_joshua_bloom_on_python_as_super/). In this course we will learn Pythonic interactions with databases, imaging processing, advanced statistical and numerical packages, web frameworks, machine-learning, and parallelism. Each week will involve lectures and coding projects. In the final project, students will build a working codebase useful for their own research domain.
+[Python](http://python.org) has become the *de facto* [superglue language for modern scientific computing](http://www.reddit.com/r/Python/comments/y9rku/astrophysicist_joshua_bloom_on_python_as_super/). In this course we will learn Pythonic interactions with databases, imaging processing, advanced statistical and numerical packages, web frameworks, machine-learning, and parallelism. Each week will involve lectures and coding projects. In the final project, students will build a working codebase useful for their own research domain.
 
-This class is for any student working in a quantative discpline and with familiarily with Python. Those who completed the [Python Bootcamp](http://www.pythonbootcamp.info) or equivalent will be eligible. 
+This class is for any student working in a quantitative discipline and with familiarity with Python. Those who completed the [Python Bootcamp](http://www.pythonbootcamp.info) or equivalent will be eligible
 
 #### Course Schedule ####
 
-Date | Content | Leader
-:--- | --------| ---: |
-Aug 29  | Advanced Python Language Concepts (geared towards Boot Camp graduates)	|Josh
-Sep 5   | scipy, numpy               |Fernando
-Sep 12	| Advanced versioning, application building (optparse), debugging & testing     |Josh
-Sep 19  | Advanced plotting, Notebooks and data vizualization, mayavi	 | Fernando
-Sep 26  | Machine Learning | Josh
-Oct 3  | Interacting with the world (xml-rpc, urllib, sending and receiving email, serial) |  Josh
-Oct 10	| Database interaction, large datasets (HDF5)	| Josh
-Oct 17  | Pandas and Timeseries Modelling | *Wes McKinney* 
-Oct 24	| GUI (Tkinter, GTK, Traits)	 | Josh
-Oct 31	| Parallelism	| Paul/Fernando
-Nov 7	| Web frameworks & RESTful APIs, Flask		| Josh
-Nov 14	| Bayesian programming & Symbolic math   | *Joey Richards*
-Nov 21  | Cython; wrapper around legacy code -- FORTRAN, C, etc | Paul
-Nov 28	| holiday | 
+Date | Content | Reading | Leader
+:--- | --------| ------- | ---: |
+Aug 26  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers)	| - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
+Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html) | Josh
+Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | TBD | Josh
+Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| TBD | Josh
+Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | TBD |Josh
+Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (HDF5) |  TBD |Josh
+Oct 7	| **Image processing** (OpenCV, skimage)	| *Stefan*
+Oct 14  | **Machine Learning I** (sklearn) | TBD |TBD
+Oct 21	| **Machine Learning II** (keras, tensorflow) | TBD |Josh
+Oct 28	| **Bayesian programming & Symbolic math**	| TBD | *Brett*
+Nov 4	| **Web frameworks & RESTful APIs, Flask**		| TBD | Josh
+Nov 11  | holiday |  
+Nov 18	| **Computational Frameworks** (Docker, AWS, Azure, AWS-Lambda)  | TBD | Josh
+Nov 25  | holiday |
+Dec 2   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh 
 Dec 5/Onward   | final project work |
 Onward	| 
 
+
+#### Sidebar Concepts ####
+
+Throughout these lectures we will be peppering in sidebar knowledge concepts:
+
+  - Jupyter & JuypterLab
+  - using git & github
+  - Docker
+  - Data science workflows
+  - reproducible research
+  - application building
+  - debugging
+  - testing
+
 #### Workflow ####
 
-Each Thursday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
+Each Friday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
 
-There will be a regular help session every Monday morning before homeworks are due, 10am-12 in Evans 481.  Email [Josh](mailto:joshbloom@berkeley.edu) with any questions if you cannot attend.
+Help sessions will be conducted interactively on the Piazza site for the course.  Email [Josh](mailto:joshbloom@berkeley.edu) with any questions.
 
 #### Contact ####
 
-Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([jbloom@astro.berkeley.edu](jbloom@astro.berkeley.edu)).  You can also contact the GSI, Adam, at ([amorgan@astro.berkeley.edu](amorgan@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
+Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([joshbloom@berkeley.edu](joshbloom@berkeley.edu)).  You can also contact the GSI, Adam, at ([amorgan@astro.berkeley.edu](amorgan@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
