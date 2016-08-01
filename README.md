@@ -16,14 +16,14 @@ This class is for any student working in a quantitative discipline and with fami
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
 Aug 26  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers)	| - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
-Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html) | Josh
+Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br>| Josh
 Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | TBD | Josh
 Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| TBD | Josh
 Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | TBD |Josh
-Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (HDF5) |  TBD |Josh
-Oct 7	| **Image processing** (OpenCV, skimage)	| *Stefan*
-Oct 14  | **Machine Learning I** (sklearn) | TBD |TBD
-Oct 21	| **Machine Learning II** (keras, tensorflow) | TBD |Josh
+Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (xarray, HDF5) |  TBD |Josh
+Oct 7	| **Image processing** (OpenCV, skimage)	| TBD |  *Stéfan van der Walt*
+Oct 14  | **Machine Learning I** (sklearn, NLP) | TBD |Josh
+Oct 21	| **Machine Learning II** (keras [tensorflow]) | TBD |Josh
 Oct 28	| **Bayesian programming & Symbolic math**	| TBD | *Brett*
 Nov 4	| **Web frameworks & RESTful APIs, Flask**		| TBD | Josh
 Nov 11  | holiday |  
