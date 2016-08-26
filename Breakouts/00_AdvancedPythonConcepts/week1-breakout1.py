@@ -2,7 +2,7 @@
 """
 Breakout answer from the Python seminar class (week #1)
   - get's us used to using yield
-created by Josh Bloom at UC Berkeley, 2010, 2012 (ucbpythonclass+seminar@gmail.com)
+created by Josh Bloom at UC Berkeley, 2010, 2012, 2016 (ucbpythonclass+seminar@gmail.com)
 """
 import math
 
@@ -22,30 +22,36 @@ def pi_series(stop_when_close=False,close=0.00001):
 
 def first_n(g, n):
     for i in range(n):
-        yield g.next()
+        yield next(g)
 
 def accel(series):
     """ accelerate the series convergence.... we have Euler to thank for this"""
-    s0 = series.next() # Sn-1
-    s1 = series.next() # Sn
-    s2 = series.next() # Sn+1
+    s0 = next(series) # Sn-1
+    s1 = next(series) # Sn
+    s2 = next(series) # Sn+1
     while True:
         yield s2 - ((s2 - s1)**2)/(s0 - 2.0*s1 + s2)
-        s0, s1, s2 = s1, s2, series.next()
+        s0, s1, s2 = s1, s2, next(series)
 
-# yeilds ... we have Guido to thank for this.
-# he's happy about yeild from, coming in python 3.3 ... he accepted on 26th June, 2011.
-# see https://plus.google.com/115212051037621986145/posts/XkGsnBgdzVk
+how_close = 0.001  # 0.1%
+firstbunch = \
+   list(first_n(pi_series(stop_when_close=True,close=how_close),\
+                 1000))
 
-firstbunch = list(first_n(pi_series(stop_when_close=True,close=0.001),1000))
-print "{0:.7f} ... 0.1% stops after: {1:d} iterations".format(firstbunch[-1],len(firstbunch))
-print "Last breakout question:" ; print("*"*30)
+print("{0:.7f} ... {2}% stops after: {1:d} iterations\n"
+      .format(firstbunch[-1],len(firstbunch),how_close*100))
+
+print("Last breakout question:") 
+print("*"*30)
+
 b = accel(pi_series())
-print "fractional accuracy first 8 in accelerated series....:"
+print("fractional accuracy first 8 in accelerated series:")
+
 for i in range(8): 
-    print "{:.4e} ".format(abs(b.next() - math.pi)/math.pi)
+    print("{:.4e} ".format(abs(next(b) - math.pi)/math.pi))
+    
 a = pi_series()
-print "\n" + "-"*30
-print "\nfractional accuracy first 8 in un-accelerated series....:"
+print("\n" + "-"*30)
+print("\nfractional accuracy first 8 in un-accelerated series:")
 for i in range(8): 
-    print "{:.4e} ".format(abs(a.next() - math.pi)/math.pi)
+    print("{:.4e} ".format(abs(next(a) - math.pi)/math.pi))
