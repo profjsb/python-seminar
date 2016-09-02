@@ -16,7 +16,7 @@ This class is for any student working in a quantitative discipline and with fami
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
 Aug 26  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers)	| - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
-Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br>| Josh
+Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
 Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | TBD | Josh
 Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| TBD | Josh
 Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | TBD |Josh
