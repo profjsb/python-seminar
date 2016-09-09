@@ -1,6 +1,6 @@
 
 """
-live streaming example from a microbit
+live streaming example from a BBC microbit
 
 UC Berkeley Python Seminar
 """
