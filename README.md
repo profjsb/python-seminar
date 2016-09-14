@@ -17,7 +17,7 @@ Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
 Aug 26  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers)	| - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
 Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
-Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | TBD | Josh
+Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| TBD | Josh
 Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | TBD |Josh
 Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (xarray, HDF5) |  TBD |Josh
@@ -51,7 +51,7 @@ Throughout these lectures we will be peppering in sidebar knowledge concepts:
 
 Each Friday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
 
-Help sessions will be conducted interactively on the Piazza site for the course.  Email [Josh](mailto:joshbloom@berkeley.edu) with any questions.
+Help sessions will be conducted interactively on the Piazza site for the course. There is also an in-person help session every Tuesday from 11am-noon at BIDS (in Doe library). Email [Josh](mailto:joshbloom@berkeley.edu) with any questions.
 
 #### Contact ####
 
