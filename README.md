@@ -20,12 +20,12 @@ Sep 2   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http:/
 Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
 Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | - [ipyparallel docs] (http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
-Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (xarray, HDF5) |  TBD |Josh
-Oct 7	| **Image processing** (OpenCV, skimage)	| TBD |  *Stéfan van der Walt*
+Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
+Oct 7	| **Web frameworks & RESTful APIs, Flask**		| TBD |  Josh
 Oct 14  | **Machine Learning I** (sklearn, NLP) | TBD |Josh
 Oct 21	| **Machine Learning II** (keras [tensorflow]) | TBD |Josh
-Oct 28	| **Bayesian programming & Symbolic math**	| TBD | *Brett*
-Nov 4	| **Web frameworks & RESTful APIs, Flask**		| TBD | Josh
+Oct 28	| **Image processing** (OpenCV, skimage)  | TBD | **Stefan van der Walt**
+Nov 4	|	**Bayesian programming & Symbolic math**	| TBD | **Brett Naul**
 Nov 11  | holiday |  
 Nov 18	| **Computational Frameworks** (Docker, AWS, Azure, AWS-Lambda)  | TBD | Josh
 Nov 25  | holiday |
