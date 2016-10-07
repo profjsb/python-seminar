@@ -3,12 +3,13 @@ Tutorial - Passing variables
 
 This tutorial shows you how to pass GET/POST variables to methods.
 """
-
+import os
 import cherrypy
 
 
 class WelcomePage:
 
+    @cherrypy.expose
     def index(self):
         # Ask for the user's name.
         return '''
@@ -17,8 +18,8 @@ class WelcomePage:
             <input type="text" name="name" />
             <input type="submit" />
             </form>'''
-    index.exposed = True
     
+    @cherrypy.expose
     def greetUser(self, name = None):
         # CherryPy passes all GET and POST variables as method parameters.
         # It doesn't make a difference where the variables come from, how
@@ -37,17 +38,15 @@ class WelcomePage:
                 return 'Please enter your name <a href="./">here</a>.'
             else:
                 return 'No, really, enter your name <a href="./">here</a>.'
-    greetUser.exposed = True
-
-
-import os.path
-tutconf = os.path.join(os.path.dirname(__file__), 'tutorial.conf')
+        
+    def secret(self):
+        return "here's my password: blah!"
 
 if __name__ == '__main__':
     # CherryPy always starts with app.root when trying to map request URIs
     # to objects, so we need to mount a request handler root. A request
     # to '/' will be mapped to HelloWorld().index().
-    cherrypy.config.update({"server.socket_port": 8099})
+    cherrypy.config.update({"server.socket_port": 9010})
 
     cherrypy.quickstart(WelcomePage())
 else:
