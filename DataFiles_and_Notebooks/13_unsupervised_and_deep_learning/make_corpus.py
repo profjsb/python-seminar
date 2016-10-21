@@ -61,9 +61,6 @@ def make_corpus(documents,outdictfile='debate3.dict',mmfile='debate3.mm'):
     # and save the dictionary for future use
     dictionary.save(outdictfile)
 
-    # We now have a dictionary with 26652 unique tokens
-    print(dictionary)
-
     # Build the corpus: vectors with occurence of each word for each document
     # convert tokenized documents to vectors
     corpus = [dictionary.doc2bow(doc) for doc in documents]
