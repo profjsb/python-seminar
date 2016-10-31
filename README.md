@@ -21,11 +21,11 @@ Sep 9	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | -
 Sep 16  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
 Sep 23  | **Parallelism** (asyncio, dask, IPython cluster)  | - [ipyparallel docs] (http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
 Sep 30  | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
-Oct 7	| **Web frameworks & RESTful APIs, Flask**		| TBD |  Josh
-Oct 14  | **Machine Learning I** (sklearn, NLP) | TBD |Josh
-Oct 21	| **Machine Learning II** (keras [tensorflow]) | TBD |Josh
-Oct 28	| **Image processing** (OpenCV, skimage)  | TBD | **Stefan van der Walt**
-Nov 4	|	**Bayesian programming & Symbolic math**	| TBD | **Brett Naul**
+Oct 7	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
+Oct 14  | **Machine Learning I** (sklearn, NLP) | None |Josh
+Oct 21	| **Machine Learning II** (keras [tensorflow]) | None |Josh
+Oct 28	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
+Nov 4	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb) | **Brett Naul**
 Nov 11  | holiday |  
 Nov 18	| **Computational Frameworks** (Docker, AWS, Azure, AWS-Lambda)  | TBD | Josh
 Nov 25  | holiday |
@@ -55,4 +55,4 @@ Help sessions will be conducted interactively on the Piazza site for the course.
 
 #### Contact ####
 
-Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([joshbloom@berkeley.edu](joshbloom@berkeley.edu)).  You can also contact the GSI, Adam, at ([amorgan@astro.berkeley.edu](amorgan@astro.berkeley.edu). Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
+Email us at [ucbpythonclass@gmail.com](mailto:ucbpythonclass@gmail.com) or contact the professor directly ([joshbloom@berkeley.edu](joshbloom@berkeley.edu)).  You can also contact the GSI, Goutam & Hadrien, at ([hadrien.renold@berkeley.edu](hadrien.renold@berkeley.edu), ([goutam.murlidhar@berkeley.edu](goutam.murlidhar@berkeley.edu)   . Auditing is not permitted by the University but those wishing to sit in on a class or two should contact the professor before attending.
