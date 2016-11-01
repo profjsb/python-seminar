@@ -25,7 +25,7 @@ Oct 7	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
 Oct 14  | **Machine Learning I** (sklearn, NLP) | None |Josh
 Oct 21	| **Machine Learning II** (keras [tensorflow]) | None |Josh
 Oct 28	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
-Nov 4	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb) | **Brett Naul**
+Nov 4	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| **Brett Naul**
 Nov 11  | holiday |  
 Nov 18	| **Computational Frameworks** (Docker, AWS, Azure, AWS-Lambda)  | TBD | Josh
 Nov 25  | holiday |
