@@ -3,7 +3,7 @@ from __future__ import division
 def f(double x):
     return x**4 - 3 * x
 
-def integrate_f(double a, double b, int N):
+def types_integrate_f(double a, double b, int N):
     """Rectangle integration of a function.
 
     Parameters
@@ -24,4 +24,3 @@ def integrate_f(double a, double b, int N):
     for i in range(N):
         s += f(a + i * dx)
     return s * dx
-
