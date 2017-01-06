@@ -43,7 +43,7 @@ except:
 
 @app.route("/")
 def get_users():
-   print " ".join([str(x) for x in User.query.all()])
+   print(" ".join([str(x) for x in User.query.all()]))
    return repr([x.email for x in User.query.all()])
 
 @app.route("/admin")

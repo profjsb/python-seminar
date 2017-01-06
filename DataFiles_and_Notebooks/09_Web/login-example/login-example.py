@@ -38,7 +38,7 @@ USERS = {
     3: User(u"Creeper", 3, False),
 }
 
-USER_NAMES = dict((u.name, u) for u in USERS.itervalues())
+USER_NAMES = dict((u.name, u) for u in USERS.values())
 
 
 app = Flask(__name__)

@@ -1,0 +1,51 @@
+City,FAA,IATA,ICAO,Airport,Role,Enplanements
+Atlanta,ATL,ATL,KATL,Hartsfield-Jackson Atlanta International Airport,P-L,43130585
+Chicago,ORD,ORD,KORD,Chicago O'Hare International Airport,P-L,32171831
+Los Angeles,LAX,LAX,KLAX,Los Angeles International Airport,P-L,30528737
+Dallas-Fort Worth,DFW,DFW,KDFW,Dallas/Fort Worth International Airport,P-L,27100656
+Denver,DEN,DEN,KDEN,Denver International Airport,P-L,25241962
+New York,JFK,JFK,KJFK,John F. Kennedy International Airport,P-L,22934047
+San Francisco,SFO,SFO,KSFO,San Francisco International Airport,P-L,20038679
+Houston,IAH,IAH,KIAH,George Bush Intercontinental Airport,P-L,19528631
+Las Vegas,LAS,LAS,KLAS,McCarran International Airport,P-L,18996738
+Phoenix,PHX,PHX,KPHX,Phoenix Sky Harbor International Airport,P-L,18907171
+Charlotte,CLT,CLT,KCLT,Charlotte/Douglas International Airport,P-L,18629181
+Miami,MIA,MIA,KMIA,Miami International Airport,P-L,17017654
+Orlando,MCO,MCO,KMCO,Orlando International Airport,P-L,17017491
+Newark,EWR,EWR,KEWR,Newark Liberty International Airport,P-L,16571754
+Detroit / Romulus,DTW,DTW,KDTW,Detroit Metropolitan Wayne County Airport,P-L,15643890
+Minneapolis,MSP,MSP,KMSP,Minneapolis-St. Paul International Airport (Wold-Chamberlain Field),P-L,15512487
+Seattle / Tacoma (SeaTac),SEA,SEA,KSEA,Seattle-Tacoma International Airport,P-L,15406243
+Philadelphia,PHL,PHL,KPHL,Philadelphia International Airport,P-L,14951254
+Boston,BOS,BOS,KBOS,Gen. Edward Lawrence Logan International Airport,P-L,13561814
+New York,LGA,LGA,KLGA,LaGuardia Airport (and Marine Air Terminal),P-L,12001501
+Washington D.C. / Chantilly / Dulles,IAD,IAD,KIAD,Washington Dulles International Airport,P-L,11276481
+Baltimore / Glen Burnie,BWI,BWI,KBWI,Baltimore/Washington International Thurgood Marshall Airport,P-L,10848633
+Fort Lauderdale,FLL,FLL,KFLL,Fort Lauderdale–Hollywood International Airport,P-L,10829810
+Salt Lake City,SLC,SLC,KSLC,Salt Lake City International Airport,P-L,9910493
+Honolulu,HNL,HNL,PHNL,Honolulu International Airport / Hickam AFB,P-L,8740077
+Washington D.C. / Arlington County,DCA,DCA,KDCA,Ronald Reagan Washington National Airport,P-L,8736804
+Chicago,MDW,MDW,KMDW,Chicago Midway International Airport,P-L,8518957
+San Diego,SAN,SAN,KSAN,San Diego International Airport,P-L,8430509
+Tampa,TPA,TPA,KTPA,Tampa International Airport,P-L,8137222
+Portland,PDX,PDX,KPDX,Portland International Airport,P-M,6582227
+St. Louis,STL,STL,KSTL,Lambert-St. Louis International Airport,P-M,6044760
+Kansas City,MCI,MCI,KMCI,Kansas City International Airport,P-M,4946173
+Memphis,MEM,MEM,KMEM,Memphis International Airport,P-M,4930935
+Cleveland,CLE,CLE,KCLE,Cleveland-Hopkins International Airport,P-M,4704329
+Oakland,OAK,OAK,KOAK,Oakland International Airport,P-M,4673417
+San Juan / Carolina,SJU,SJU,TJSJ,Luis Muñoz Marín International Airport,P-M,4635798
+Raleigh,RDU,RDU,KRDU,Raleigh-Durham International Airport,P-M,4465736
+Nashville,BNA,BNA,KBNA,Nashville International Airport (Berry Field),P-M,4432527
+Sacramento,SMF,SMF,KSMF,Sacramento International Airport,P-M,4424279
+Houston,HOU,HOU,KHOU,William P. Hobby Airport,P-M,4357835
+Santa Ana,SNA,SNA,KSNA,John Wayne Airport – Orange County (was Orange County Airport),P-M,4278623
+Austin,AUS,AUS,KAUS,Austin-Bergstrom International Airport,P-M,4201136
+San Jose,SJC,SJC,KSJC,Norman Y. Mineta San José International Airport,P-M,4108167
+New Orleans,MSY,MSY,KMSY,Louis Armstrong New Orleans International Airport,P-M,4088889
+Pittsburgh,PIT,PIT,KPIT,Pittsburgh International Airport,P-M,3996656
+San Antonio,SAT,SAT,KSAT,San Antonio International Airport,P-M,3916320
+Covington,CVG,CVG,KCVG,Cincinnati/Northern Kentucky International Airport,P-M,3906826
+Milwaukee,MKE,MKE,KMKE,General Mitchell International Airport,P-M,3861333
+Dallas,DAL,DAL,KDAL,Dallas Love Field,P-M,3783407
+Indianapolis,IND,IND,KIND,Indianapolis International Airport,P-M,3728698

@@ -1,7 +1,11 @@
 from flask import Flask, redirect, request, url_for
+from flask import current_app
 
 app = Flask(__name__)
 app.debug = True
+
+def debug():
+    assert current_app.debug == False, "Don't panic! You're here by request of debug()"
 
 ## we can tell our view functions what HTTP methods it
 ## is allowed to respond to
@@ -11,6 +15,7 @@ def login():
         return "performing the log in"
     else:
     	## this is a normal GET request
+        # debug()
         return "please log in..."
 
 @app.route("/")

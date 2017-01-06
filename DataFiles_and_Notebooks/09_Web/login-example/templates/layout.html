@@ -4,7 +4,7 @@
 <div class=page>
   <h1>Login Demo</h1>
   <div class=metanav>
-  {% if current_user.is_authenticated() %}
+  {% if (current_user.is_authenticated) %}
     Welcome, {{ current_user.name }} | <a href="{{ url_for('logout') }}">log out</a>
   {% else %}
     You are not logged in | <a href="{{ url_for('login') }}">log in</a>

@@ -3,7 +3,7 @@
 {% block body %}
 <h2>Welcome</h2>
 
-{% if current_user.is_authenticated() %}
+{% if current_user.is_authenticated %}
 <p>You are authorized to access <a href="{{ url_for('secret') }}">the secret information</a>.
 {% else %}
 <p>This Web site contains secret information available only to authorized users.
