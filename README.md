@@ -28,9 +28,8 @@ Mar 26  | **Spring Break** |  |
 Apr 2	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
 Apr 9	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
 Apr 16	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| **TBD**
-Apr 23	| **Computational Frameworks** (Docker, AWS, Azure, AWS-Lambda)  | TBD | Josh
-Apr 30   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh 
-May 1/Onward   | final project work |
+Apr 23   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh 
+Apr 30/Onward   | final project work |
 Onward	| 
 
 
