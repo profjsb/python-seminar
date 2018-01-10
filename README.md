@@ -32,7 +32,12 @@ Apr 23   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh
 Apr 30/Onward   | final project work |
 Onward	| 
 
+#### Useful Books ####
 
+   - [Elegant Scipy](http://proquest.safaribooksonline.com.libproxy.berkeley.edu/book/programming/python/9781491922927/elegant-scipy/copyright_page01_html) (UC Berkeley Library link)
+       - [MyBinder Version](https://mybinder.org/v2/gh/elegant-scipy/notebooks/master?filepath=index.ipynb)
+       - [Clean Notebooks](https://github.com/elegant-scipy/notebooks)
+       
 #### Sidebar Concepts ####
 
 Throughout these lectures we will be peppering in sidebar knowledge concepts:
