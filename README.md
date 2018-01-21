@@ -18,7 +18,7 @@ This class is for any student working in a quantitative discipline and with fami
 
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
-Jan 22  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers)	| - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
+Jan 22  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=%2FDataFiles_and_Notebooks%2F00_AdvancedPythonConcepts%2Fadvanced_notebook.ipynb) | - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
 Jan 29   | **Pandas, Scipy, & Numpy**         | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
 Feb 5	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Feb 12  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
