@@ -1,7 +1,10 @@
 Python Computing for Data Science
 ==============
 
-#### An Upper-Division Undergraduate/Graduate Seminar Course at UC Berkeley (AY 250) ####
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master)
+
+
+#### A Graduate Seminar Course at UC Berkeley (AY 250) ####
 
 ##### Campbell Hall: Monday 2 - 5 PM SPRING 2018 #####
 
