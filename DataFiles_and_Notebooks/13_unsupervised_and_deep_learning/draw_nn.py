@@ -81,5 +81,5 @@ def draw_neural_net(ax, left, right, bottom, top, layer_sizes,weights=None):
                     x = (n + 1)*h_spacing + left + math.sqrt((0.55/layer_size_b))*((n*h_spacing + left) - ((n + 1)*h_spacing + left))
                     y = slope*x + intercept
                     ax.text(x,y,"%0.2f" % weights[n][j][k],rotation=(slope_ang + math.pi)*180/math.pi,
-                            color="grey",alpha=0.3,fontsize=15)
+                            color="grey",alpha=0.9,fontsize=15)
 

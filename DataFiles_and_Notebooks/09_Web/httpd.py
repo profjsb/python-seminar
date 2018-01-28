@@ -1,10 +1,8 @@
 import time
 import http.server
 
-
 HOST_NAME = 'localhost' # !!!REMEMBER TO CHANGE THIS!!!
-PORT_NUMBER = 8090 # Maybe set this to 9000.
-
+PORT_NUMBER = 8091 # Maybe set this to 9000.
 
 def s2b(s):
     return s.encode("UTF-8")
@@ -21,7 +19,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         s.send_header(s2b("Content-type"), s2b("text/html"))
         s.end_headers()
         s.wfile.write(s2b("<html><head><title>Title goes here.</title></head>"))
-        s.wfile.write(s2b("<body><p>This is a <b>test.</b></p>"))
+        s.wfile.write(s2b("<body><p>This is a <i>test.</i></p>"))
         # If someone went to "http://something.somewhere.net/foo/bar/",
         # then s.path equals "/foo/bar/".
         s.wfile.write(s2b("<p>You accessed path: %s</p>" % s.path))

@@ -1,7 +1,7 @@
 from flask import Flask, redirect, request, url_for
 from flask import current_app
 
-app = Flask(__name__)
+app = Flask("Dan")
 app.debug = True
 
 def debug():

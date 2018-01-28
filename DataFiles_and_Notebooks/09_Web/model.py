@@ -2,6 +2,7 @@ from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+print(app.config)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
 db = SQLAlchemy(app)
 
@@ -18,6 +19,10 @@ class User(db.Model):
 
     def __repr__(self):
         return 'Yo, my name is %r' % self.username
+
+    def __str__(self):
+        return self.__repr__()
+
 
 class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -41,10 +46,11 @@ try:
 except:
 	pass
 
-@app.route("/")
+@app.route("/users")
 def get_users():
-   print(" ".join([str(x) for x in User.query.all()]))
-   return repr([x.email for x in User.query.all()])
+   1/0
+   return(" ".join([str(x) for x in User.query.all()]))
+   #return repr([x.email for x in User.query.all()])
 
 @app.route("/admin")
 def get_admin_email():

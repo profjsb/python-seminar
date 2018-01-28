@@ -11,7 +11,7 @@ from string import digits
 def make_corpus(documents,outdictfile='debate3.dict',mmfile='debate3.mm'):
     
     # Remove documents with less 100 words (some timeline are only composed of URLs)
-    documents = [doc for doc in documents if len(doc) > 100]
+    documents = [doc for doc in documents if len(doc) > 50]
 
     # tokenize
     from nltk.tokenize import RegexpTokenizer
@@ -25,7 +25,7 @@ def make_corpus(documents,outdictfile='debate3.dict',mmfile='debate3.mm'):
                 'one','com','new','like','make','top',
                 'say','yay','would','going',
                 'new','use','should','could','really','see','want',
-                'while','know']
+                'while','know','url','emoji','mention']
 
     unigrams = [ w for doc in documents for w in doc if len(w)==1]
     bigrams  = [ w for doc in documents for w in doc if len(w)==2]
