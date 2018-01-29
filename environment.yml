@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - scipy
+  - numpy
+  - pandas
+  - numexpr
+  - bokeh
+  - pip:
+    - sphinx-gallery
