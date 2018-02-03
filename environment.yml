@@ -8,5 +8,12 @@ dependencies:
   - pandas
   - numexpr
   - bokeh
+  - datashader
+  - seaborn
+  - ipywidgets
+  - altair
+  - plotly
+  - bqplot
   - pip:
     - sphinx-gallery
+    - pdvega
