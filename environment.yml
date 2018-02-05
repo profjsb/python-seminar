@@ -10,6 +10,7 @@ dependencies:
   - bokeh
   - datashader
   - seaborn
+  - pillow
   - ipywidgets
   - altair
   - plotly
@@ -17,3 +18,5 @@ dependencies:
   - pip:
     - sphinx-gallery
     - pdvega
+    - vega3
+
