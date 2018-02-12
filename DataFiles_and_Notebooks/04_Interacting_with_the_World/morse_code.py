@@ -19,14 +19,13 @@ def blink_arduino(s,morse_code):
     if morse_code == " ":
         time.sleep(1.0)
     if morse_code == ".":
-        s.write("1") # Turns light on
+        s.write(b"1") # Turns light on
         time.sleep(0.25)
-        s.write("0") # Turns light off
+        s.write(b"0") # Turns light off
     if morse_code == "-":
-        s.write("1") # Turns light on
+        s.write(b"1") # Turns light on
         time.sleep(0.50)
-        s.write("0") # Turns light off
-
+        s.write(b"0") # Turns light off
 
 morsetab = {
         'A': '.-',              'a': '.-',
@@ -68,15 +67,19 @@ morsetab = {
         ' ': ' ',               '_': '..--.-',
 }
 
-print "Please enter message to transmit."
-msg = raw_input()
+print("Please enter message to transmit.")
+msg = input()
 byte_length = len(msg)
+
+serial_dev = "/dev/cu.usbmodem1421" # /dev/tty.usbserial-A6008cMI
 
 arduino = True
 if arduino:
-    s = serial.Serial("/dev/tty.usbserial-A6008cMI")  # use this line to connect to an arduino
+    s = serial.Serial(serial_dev)  # use this line to connect to an arduino or microbit
 else:
     s = serial.Serial('/dev/tty.usbserial')
+
+s.write(b"0");
 
 start_time = time.time()
 for c in msg:
@@ -84,17 +87,17 @@ for c in msg:
     try:
         m_code = morsetab[c]
     except KeyError:
-        print c, "has no morse code translation, skipping."
+        print(c, "has no morse code translation, skipping.")
     if m_code != "!":
-        print c, m_code
+        print(c, m_code)
         for elem in m_code:
             if not arduino:
                 blink(s, elem)
             else:
                 blink_arduino(s,elem)
-            time.sleep(0.1)
+            time.sleep(0.10)
 end_time = time.time()
 s.close()
 transmission_time = end_time - start_time
-print "Message transmission time:", round(transmission_time, 2), "seconds."
-print "Data rate:", round(byte_length/transmission_time, 2), "bytes/sec."
+print("Message transmission time:", round(transmission_time, 2), "seconds.")
+print("Data rate:", round(byte_length/transmission_time, 2), "bytes/sec.")
