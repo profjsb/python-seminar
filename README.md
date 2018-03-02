@@ -25,7 +25,7 @@ Feb 12  | **Interacting with the world** (requests, email, IoT/pyserial)	| None 
 Feb 19  | **Holiday** (no class) |  | 
 Feb 26  | **Parallelism** (asyncio, dask, IPython cluster)  | - [ipyparallel docs] (http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
 Mar 5  | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
-Mar 12  | **Machine Learning I** (sklearn, NLP) | None |Josh
+Mar 12  | **Machine Learning I** (sklearn, NLP) <br><b>NOTE: 3:10pm start!</br> | None |Josh
 Mar 19	| **Machine Learning II** (keras [tensorflow]) | None |Josh
 Mar 26  | **Spring Break** |  | 
 Apr 2	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
