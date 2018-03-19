@@ -55,11 +55,11 @@ def draw_neural_net(ax, left, right, bottom, top, layer_sizes,weights=None):
             x1,y1 = (n*h_spacing + left - v_spacing/8., layer_top - m*v_spacing -  v_spacing/32.)
             if n == 0:
                 ## input labels
-                txt = plt.Text(x1,y1,r"$X_i^{" + r"{}".format(j) + r"}$",zorder=10)
+                txt = plt.Text(x1,y1,r"$X_i^{" + r"{}".format(j) + r"}$",zorder=10,fontsize=15)
                 ax.add_artist(txt)
 
             if n == len(layer_sizes) - 1:
-                txt = plt.Text(x1,y1,r"$Y_i^{" + r"{}".format(j) + r"}$",zorder=10)
+                txt = plt.Text(x1,y1,r"$Y_i^{" + r"{}".format(j) + r"}$",zorder=10,fontsize=15)
                 ax.add_artist(txt)
 
     # Edges
