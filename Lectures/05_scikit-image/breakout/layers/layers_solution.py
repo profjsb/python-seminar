@@ -4,30 +4,24 @@
 # the lines of denoising, sharpening, etc.
 
 import numpy as np
+import matplotlib.pyplot as plt
 
-from skimage import io
-io.use_plugin('matplotlib')
+from skimage import img_as_float, io, exposure
 
-from skimage import exposure
+ic = io.ImageCollection('m8_050507_*.png')
+ic = [img_as_float(img) for img in ic]
+H, B, G, R, L = ic
 
-L = io.imread('m8_050507_9i9m_R_sm.png')
-H = io.imread('m8_050507_9i9m_R_sm.png')
-R = io.imread('m8_050507_9i9m_R_sm.png')
-G = io.imread('m8_050507_9i9m_G_sm.png')
-B = io.imread('m8_050507_9i9m_B_sm.png')
+H = exposure.adjust_sigmoid(H, cutoff=0.05, gain=35)
+L = exposure.adjust_sigmoid(L, cutoff=0.05, gain=15)
+R = exposure.adjust_gamma(R, 0.1)
 
-def gamma(img, g):
-    return exposure.rescale_intensity(img ** g, in_range=(0, 1))
+# Merge R, G, B channels
+out = np.dstack((H, L, R))
+out = exposure.adjust_gamma(out, 2.1)
 
-L = gamma(L, 0.8)
-R = exposure.rescale_intensity(R + L, in_range=(0, 0.5))
-G = exposure.rescale_intensity(G + L, in_range=(0, 0.4))
-B = exposure.rescale_intensity(gamma(H, 1.5), in_range=(0, 0.03))
-
-# Merge R, G, B, hydrogen and luminance
-out = np.dstack((R, G, B))
-out = exposure.rescale_intensity(gamma(out, 2), in_range=(0, 0.9))
-
-io.imshow(out)
 io.imsave('m8_recon.png', out)
-io.show()
+
+f, ax = plt.subplots()
+ax.imshow(out)
+plt.show()
