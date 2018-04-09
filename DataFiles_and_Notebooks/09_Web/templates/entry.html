@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% set page_title = 'Journal Entry' %}
+
+{% block content %}
+            
+<frameset><form action="/add" method="POST">
+	      title = <input type="text" name="title" />
+              <br>
+              entry
+<br>
+<TEXTAREA rows="30" cols="60" name="entry">
+</TEXTAREA>
+            <input type="submit" />
+            </form>
+</frameset>
+{% endblock %}
