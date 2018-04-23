@@ -17,7 +17,7 @@ square = expensive_square
 
 def execute():
     print("Squaring some numbers...")
-    x = np.arange((50000000))
+    x = np.arange((500000))
     y = square(x)
 
 #    np.testing.assert_equal(x**2, y)
