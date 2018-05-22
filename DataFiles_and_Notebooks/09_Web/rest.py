@@ -1,12 +1,13 @@
 import flask
-import flask.ext.sqlalchemy
-import flask.ext.restless
+import flask_sqlalchemy
+import flask_restless
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test_new.db"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-db = flask.ext.sqlalchemy.SQLAlchemy(app)
+db = flask_sqlalchemy.SQLAlchemy(app)
 
 class Member(db.Model):
         # __tablename __ = "newsletter_members"
@@ -17,7 +18,7 @@ class Member(db.Model):
 
 db.create_all()
 
-manager = flask.ext.restless.APIManager(app,flask_sqlalchemy_db=db)
+manager = flask_restless.APIManager(app,flask_sqlalchemy_db=db)
 
 manager.create_api(Member,methods=["GET","POST"])
 

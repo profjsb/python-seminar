@@ -1,0 +1,1 @@
+Most of the lectures are now in the DataFiles_and_Notebooks directory.

@@ -15,15 +15,13 @@ class WelcomePage:
             <form action="greetUser" method="GET">
             What is your name?
             <input type="text" name="name" />
-            <br>
             What is your favorite color?
-            <input type="text" name="favcol" />
-            <br>
+            <input type="text" name="color" />
             <input type="submit" />
             </form>'''
     
     @cherrypy.expose
-    def greetUser(self, name = None, favcol = "black"):
+    def greetUser(self, name = None, color = "blue"):
         # CherryPy passes all GET and POST variables as method parameters.
         # It doesn't make a difference where the variables come from, how
         # large their contents are, and so on.
@@ -34,9 +32,7 @@ class WelcomePage:
         
         if name:
             # Greet the user!
-            return "<font color='{color}'>Hey {name}, what's up?</font>".format( \
-                color=favcol, name = name)
-            
+            return "<font color='%s'>Hey %s, what's up?</font>" % (color, name)
         else:
             if name is None:
                 # No name was specified
@@ -51,7 +47,7 @@ if __name__ == '__main__':
     # CherryPy always starts with app.root when trying to map request URIs
     # to objects, so we need to mount a request handler root. A request
     # to '/' will be mapped to HelloWorld().index().
-    cherrypy.config.update({"server.socket_port": 9020})
+    cherrypy.config.update({"server.socket_port": 8083})
 
     cherrypy.quickstart(WelcomePage())
 else:

@@ -1,11 +1,11 @@
 import time
 import http.server
 
-HOST_NAME = 'localhost' # !!!REMEMBER TO CHANGE THIS!!!
+HOST_NAME = 'localhost' #
 PORT_NUMBER = 8091 # Maybe set this to 9000.
 
 def s2b(s):
-    return s.encode("UTF-8")
+    return bytes(s, 'utf-8')
 
 class MyHandler(http.server.SimpleHTTPRequestHandler):
     def do_HEAD(s):
