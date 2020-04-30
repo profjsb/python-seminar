@@ -6,7 +6,7 @@ Python Computing for Data Science
 
 #### A Graduate Seminar Course at UC Berkeley (AY 250) ####
 
-##### Campbell Hall: Monday 2 - 5 PM SPRING 2018 #####
+##### Campbell Hall: Thurs 3:30 - 6:30 PM FALL 2020 #####
 
 #### Synopsis ####
 
@@ -18,21 +18,21 @@ This class is for any student working in a quantitative discipline and with fami
 
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
-Jan 22  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=%2FDataFiles_and_Notebooks%2F00_AdvancedPythonConcepts%2Fadvanced_notebook.ipynb) | - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
-Jan 29   | **Pandas, Scipy, & Numpy** Numpy: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
-Feb 5	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
-Feb 12  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
-Feb 19  | **Holiday** (no class) |  | 
-Feb 26  | **Parallelism** (asyncio, dask, IPython cluster)  | - [ipyparallel docs] (http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
-Mar 5  | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
-Mar 12  | **Machine Learning I** (sklearn, NLP) <br><b>NOTE: 3:10pm start!</br> | None |Josh
-Mar 19	| **Machine Learning II** (keras [tensorflow]) | None |Josh
-Mar 26  | **Spring Break** |  | 
-Apr 2	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
-Apr 9	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
-Apr 16	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| **TBD**
-Apr 23   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh 
-Apr 30/Onward   | final project work |
+TBD  | **Advanced Python Language Concepts** (decorators, OrderedDict, <br>Generators, Iterables, Context Managers) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=%2FDataFiles_and_Notebooks%2F00_AdvancedPythonConcepts%2Fadvanced_notebook.ipynb) | - [GIT](http://marwahaha.github.io/2015-07-09-berkeley/git/) <br> - scipy [&sect;2.1](http://www.scipy-lectures.org/) </br> | Josh
+TBD   | **Pandas, Scipy, & Numpy** Numpy: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
+TBD	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly, mayavi)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
+TBD  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
+TBD  | **Holiday** (no class) |  | 
+TBD  | **Parallelism** (asyncio, dask, IPython cluster)  | - [ipyparallel docs] (http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
+TBD | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
+TBD  | **Machine Learning I** (sklearn, NLP) <br><b>NOTE: 3:10pm start!</br> | None |Josh
+TBD	| **Machine Learning II** (keras [tensorflow]) | None |Josh
+TBD  | **Spring Break** |  | 
+TBD	| **Image processing** (OpenCV, skimage)  | None | **Stefan van der Walt**
+TBD	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
+TBD	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| **TBD**
+TBD   | **Speeding it up** (Numba, Cython, wrapping legacy code) | TBD | Josh 
+TBD   | final project work |
 Onward	| 
 
 #### Useful Books ####
