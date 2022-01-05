@@ -19,7 +19,7 @@ This class is for any student working in a quantitative discipline and with fami
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
 Jan 24   | **Pandas, Scipy, & Numpy** <br> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
-Jan 31	| **Data vizualization** (Matplotlib, Bokeh, Altair, Plotly)   | - Skim [Tufte's Vizualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
+Jan 31	| **Data visualization** (Matplotlib, Bokeh, Altair, Plotly)   | - Skim [Tufte's Visualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Feb 7  | **Application building and Testing** | None | Josh 
 Feb 14  | **Parallelism** (asyncio, dask, ray, jax)  | - [ipyparallel docs](http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
 Feb 21  | **Holiday** (no class) |  | 
@@ -56,7 +56,7 @@ Throughout these lectures we will be peppering in sidebar knowledge concepts:
 
 #### Workflow ####
 
-Each Monday we will be introducing a resonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
+Each Monday we will be introducing a reasonably self-contained topic with two back-to-back lectures. In between a short (~20 minute) breakout coding session will be conducted. Homeworks will require you to write a large (several hundred line) codebase.
 
 Help sessions will be conducted interactively on the Piazza site for the course. There is also an in-person help session every TBD. Email [Josh](mailto:joshbloom@berkeley.edu) with any questions.
 
