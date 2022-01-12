@@ -25,7 +25,6 @@ dependencies:
 
 - pip:
   - jupyter-desktop-server==0.1.3
-  - -r infra-requirements.txt
   - tensorflow>=2.7.*
   - opencv-python>=4.5.5.62
   - nose2>=0.10.0
