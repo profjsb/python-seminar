@@ -78,3 +78,5 @@ dependencies:
   - tables>=3.7.0
   - aiohttp>=3.8.1
   - jax
+  - watermark
+  - autopep8
