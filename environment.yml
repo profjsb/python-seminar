@@ -60,7 +60,7 @@ dependencies:
   - vega3>=0.13.0
   - pytz>=2021.3
   - keras==2.7.*
-  - keras-preprocessing==1.1.*
+  - keras-preprocessing>=1.1.*
   - lightkurve
   - ipyparallel>=8.1.0
   - jupyter-tensorboard>=0.2.0
