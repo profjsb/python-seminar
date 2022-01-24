@@ -18,7 +18,7 @@ This class is for any student working in a quantitative discipline and with fami
 
 Date | Content | Reading | Leader
 :--- | --------| ------- | ---: |
-Jan 24   | **Numpy, Scipy, & Pandas** <br> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
+Jan 24 <font color="crimson">Online only</font> | **Numpy, Scipy, & Pandas** <br> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
 Jan 31	| **Data visualization** (Matplotlib, Bokeh, Altair, Plotly)   | - Skim [Tufte's Visualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Feb 7  | **Application building and Testing** | None | Josh 
 Feb 14  | **Parallelism** (asyncio, dask, ray, jax)  | - [ipyparallel docs](http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
@@ -28,7 +28,8 @@ Mar 7  | **Machine Learning I** (sklearn, NLP) | None |Josh
 Mar 14	| **Machine Learning II** (keras [tensorflow], pytorch) | None |Josh
 Mar 21  | **Spring Break** |  | 
 Mar 28  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
-Apr 1	| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
+Apr 1 <br><font color="crimson">Friday 1-3pm</font>| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
+Apr 4  | No lecture |
 Apr 11	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| Josh
 Apr 18	| **Image processing** (OpenCV, skimage)  | None | [Stefan van der Walt](https://github.com/stefanv)
 Apr 25  | **Speeding it up** (Numba, Cython, wrapping legacy code) | None | Josh 
