@@ -102,11 +102,11 @@ style = HTML("""<style>
   line-height: 1.8;
   }
 
-.input_prompt, .CodeMirror-lines, .output_area
+.text_cell .input_prompt .CodeMirror-lines .output_area pre
 {
-  font-family: Consolas;
-  font-size: 120%;
-  }
+    font-family: "Ubuntu";
+    font-size: 130%;
+}
 
 .gap-above
 {
