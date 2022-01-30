@@ -1,0 +1,506 @@
+YEAR,TOURNAMENT,WINNER,RUNNER-UP
+2022-01-30,Australian Open,Rafael Nadal,Daniil Medvedev
+2021-09,U.S. Open,Daniil Medvedev,Novak Djokovic
+2021-07,Wimbledon,Novak Djokovic,Matteo Berrettini
+2021-06,French Open,Novak Djokovic,Stefanos Tsitsipas
+2021-01,Australian Open,Novak Djokovic,Daniil Medvedev
+2020-09,U.S. Open,Dominic Thiem,Alexander Zverev
+2020-10,French Open,Rafael Nadal,Novak Djokovic
+2020-01,Australian Open,Novak Djokovic,Dominic Thiem
+2019-09,U.S. Open,Rafael Nadal,Daniil Medvedev
+2019-07,Wimbledon,Novak Djokovic,Roger Federer
+2019-10,French Open,Rafael Nadal,Dominic Thiem
+2019-01,Australian Open,Novak Djokovic,Rafael Nadal
+2018-09,U.S. Open,Novak Djokovic,Juan Martin del Potro
+2018-07,Wimbledon,Novak Djokovic,Kevin Anderson
+2018-06,French Open,Rafael Nadal,Dominic Thiem
+2018-01,Australian Open,Roger Federer,Marin Cilic
+2017-09,U.S. Open,Rafael Nadal,Kevin Anderson
+2017-07,Wimbledon,Roger Federer,Marin Cilic
+2017-06,French Open,Rafael Nadal,Stanislas Wawrinka
+2017-01,Australian Open,Roger Federer,Rafael Nadal
+2016-09,U.S. Open,Stanislas Wawrinka,Novak Djokovic
+2016-07,Wimbledon,Andy Murray,Milos Raonic
+2016-06,French Open,Novak Djokovic,Andy Murray
+2016-01,Australian Open,Novak Djokovic,Andy Murray
+2015-09,U.S. Open,Novak Djokovic,Roger Federer
+2015-07,Wimbledon,Novak Djokovic,Roger Federer
+2015-06,French Open,Stanislas Wawrinka,Novak Djokovic
+2015-01,Australian Open,Novak Djokovic,Andy Murray
+2014-09,U.S. Open,Marin Cilic,Kei Nishikori
+2014-07,Wimbledon,Novak Djokovic,Roger Federer
+2014-06,French Open,Rafael Nadal,Novak Djokovic
+2014-01,Australian Open,Stanislas Wawrinka,Rafael Nadal
+2013-09,U.S. Open,Rafael Nadal,Novak Djokovic
+2013-07,Wimbledon,Andy Murray,Novak Djokovic
+2013-06,French Open,Rafael Nadal,David Ferrer
+2013-01,Australian Open,Novak Djokovic,Andy Murray
+2012-09,U.S. Open,Andy Murray,Novak Djokovic
+2012-07,Wimbledon,Roger Federer,Andy Murray
+2012-06,French Open,Rafael Nadal,Novak Djokovic
+2012-01,Australian Open,Novak Djokovic,Rafael Nadal
+2011-09,U.S. Open,Novak Djokovic,Rafael Nadal
+2011-07,Wimbledon,Novak Djokovic,Rafael Nadal
+2011-06,French Open,Rafael Nadal,Roger Federer
+2011-01,Australian Open,Novak Djokovic,Andy Murray
+2010-09,U.S. Open,Rafael Nadal,Novak Djokovic
+2010-07,Wimbledon,Rafael Nadal,Tomas Berdych
+2010-06,French Open,Rafael Nadal,Robin Soderling
+2010-01,Australian Open,Roger Federer,Andy Murray
+2009-09,U.S. Open,Juan Martin del Potro,Roger Federer
+2009-07,Wimbledon,Roger Federer,Andy Roddick
+2009-06,French Open,Roger Federer,Robin Soderling
+2009-01,Australian Open,Rafael Nadal,Roger Federer
+2008-09,U.S. Open,Roger Federer,Andy Murray
+2008-07,Wimbledon,Rafael Nadal,Roger Federer
+2008-06,French Open,Rafael Nadal,Roger Federer
+2008-01,Australian Open,Novak Djokovic,Jo-Wilfried Tsonga
+2007-09,U.S. Open,Roger Federer,Novak Djokovic
+2007-07,Wimbledon,Roger Federer,Rafael Nadal
+2007-06,French Open,Rafael Nadal,Roger Federer
+2007-01,Australian Open,Roger Federer,Fernando Gonzalez
+2006-09,U.S. Open,Roger Federer,Andy Roddick
+2006-07,Wimbledon,Roger Federer,Rafael Nadal
+2006-06,French Open,Rafael Nadal,Roger Federer
+2006-01,Australian Open,Roger Federer,Marcos Baghdatis
+2005-09,U.S. Open,Roger Federer,Andre Agassi
+2005-07,Wimbledon,Roger Federer,Andy Roddick
+2005-06,French Open,Rafael Nadal,Mariano Puerta
+2005-01,Australian Open,Marat Safin,Lleyton Hewitt
+2004-09,U.S. Open,Roger Federer,Lleyton Hewitt
+2004-07,Wimbledon,Roger Federer,Andy Roddick
+2004-06,French Open,Gaston Gaudio,Guillermo Coria
+2004-01,Australian Open,Roger Federer,Marat Safin
+2003-09,U.S. Open,Andy Roddick,Juan Carlos Ferrero
+2003-07,Wimbledon,Roger Federer,Mark Philippoussis
+2003-06,French Open,Juan Carlos Ferrero,Martin Verkerk
+2003-01,Australian Open,Andre Agassi,Rainer Schuettler
+2002-09,U.S. Open,Pete Sampras,Andre Agassi
+2002-07,Wimbledon,Lleyton Hewitt,David Nalbandian
+2002-06,French Open,Albert Costa,Juan Carlos Ferrero
+2002-01,Australian Open,Thomas Johannson,Marat Safin
+2001-09,U.S. Open,Lleyton Hewitt,Pete Sampras
+2001-07,Wimbledon,Goran Ivanisevic,Patrick Rafter
+2001-06,French Open,Gustavo Kuerten,Alex Corretja
+2001-01,Australian Open,Andre Agassi,Arnaud Clement
+2000-09,U.S. Open,Marat Safin,Pete Sampras
+2000-07,Wimbledon,Pete Sampras,Patrick Rafter
+2000-06,French Open,Gustavo Kuerten,Magnus Norman
+2000-01,Australian Open,Andre Agassi,Yevgeny Kafelnikov
+1999-09,U.S. Open,Andre Agassi,Todd Martin
+1999-07,Wimbledon,Pete Sampras,Andre Agassi
+1999-06,French Open,Andre Agassi,Andre Medvedev
+1999-01,Australian Open,Yevgeny Kafelnikov,Thomas Enqvist
+1998-09,U.S. Open,Patrick Rafter,Mark Philippoussis
+1998-07,Wimbledon,Pete Sampras,Goran Ivanisevic
+1998-06,French Open,Carlos Moya,Alex Corretja
+1998-01,Australian Open,Petr Korda,Marcelo Rios
+1997-09,U.S. Open,Patrick Rafter,Greg Rusedski
+1997-07,Wimbledon,Pete Sampras,Cedric Pioline
+1997-06,French Open,Gustavo Kuerten,Sergi Bruguera
+1997-01,Australian Open,Pete Sampras,Carlos Moya
+1996-09,U.S. Open,Pete Sampras,Michael Chang
+1996-07,Wimbledon,Richard Krajicek,MaliVai Washington
+1996-06,French Open,Yevgeny Kafelnikov,Michael Stich
+1996-01,Australian Open,Boris Becker,Michael Chang
+1995-09,U.S. Open,Pete Sampras,Andre Agassi
+1995-07,Wimbledon,Pete Sampras,Boris Becker
+1995-06,French Open,Thomas Muster,Michael Chang
+1995-01,Australian Open,Andre Agassi,Pete Sampras
+1994-09,U.S. Open,Andre Agassi,Michael Stich
+1994-07,Wimbledon,Pete Sampras,Goran Ivanisevic
+1994-06,French Open,Sergi Bruguera,Alberto Berasategui
+1994-01,Australian Open,Pete Sampras,Todd Martin
+1993-09,U.S. Open,Pete Sampras,Cedric Pioline
+1993-07,Wimbledon,Pete Sampras,Jim Courier
+1993-06,French Open,Sergi Bruguera,Jim Courier
+1993-01,Australian Open,Jim Courier,Stefan Edberg
+1992-09,U.S. Open,Stefan Edberg,Pete Sampras
+1992-07,Wimbledon,Andre Agassi,Goran Ivanisevic
+1992-06,French Open,Jim Courier,Petr Korda
+1992-01,Australian Open,Jim Courier,Stefan Edberg
+1991-09,U.S. Open,Stefan Edberg,Jim Courier
+1991-07,Wimbledon,Michael Stich,Boris Becker
+1991-06,French Open,Jim Courier,Andre Agassi
+1991-01,Australian Open,Boris Becker,Ivan Lendl
+1990-09,U.S. Open,Pete Sampras,Andre Agassi
+1990-07,Wimbledon,Stefan Edberg,Boris Becker
+1990-06,French Open,Andres Gomez,Andre Agassi
+1990-01,Australian Open,Ivan Lendl,Stefan Edberg
+1989-09,U.S. Open,Boris Becker,Ivan Lendl
+1989-07,Wimbledon,Boris Becker,Stefan Edberg
+1989-06,French Open,Michael Chang,Stefan Edberg
+1989-01,Australian Open,Ivan Lendl,Miloslav Mecir
+1988-09,U.S. Open,Mats Wilander,Ivan Lendl
+1988-07,Wimbledon,Stefan Edberg,Boris Becker
+1988-06,French Open,Mats Wilander,Henri Leconte
+1988-01,Australian Open,Mats Wilander,Pat Cash
+1987-09,U.S. Open,Ivan Lendl,Mats Wilander
+1987-07,Wimbledon,Pat Cash,Ivan Lendl
+1987-06,French Open,Ivan Lendl,Mats Wilander
+1987-01,Australian Open,Stefan Edberg,Pat Cash
+1986-09,U.S. Open,Ivan Lendl,Miloslav Mecir
+1986-07,Wimbledon,Boris Becker,Ivan Lendl
+1986-06,French Open,Ivan Lendl,Mikael Pernfors
+1985-01,Australian Open,Stefan Edberg,Mats Wilander
+1985-09,U.S. Open,Ivan Lendl,John McEnroe
+1985-07,Wimbledon,Boris Becker,Kevin Curren
+1985-06,French Open,Mats Wilander,Ivan Lendl
+1984-01,Australian Open,Mats Wilander,Kevin Curren
+1984-09,U.S. Open,John McEnroe,Ivan Lendl
+1984-07,Wimbledon,John McEnroe,Jimmy Connors
+1984-06,French Open,Ivan Lendl,John McEnroe
+1983-01,Australian Open,Mats Wilander,Ivan Lendl
+1983-09,U.S. Open,Jimmy Connors,Ivan Lendl
+1983-07,Wimbledon,John McEnroe,Chris Lewis
+1983-06,French Open,Yannick Noah,Mats Wilander
+1982-01,Australian Open,Johan Kriek,Steve Denton
+1982-09,U.S. Open,Jimmy Connors,Ivan Lendl
+1982-07,Wimbledon,Jimmy Connors,John McEnroe
+1982-06,French Open,Mats Wilander,Guillermo Vilas
+1981-01,Australian Open,Johan Kriek,Steve Denton
+1981-09,U.S. Open,John McEnroe,Bjorn Borg
+1981-07,Wimbledon,John McEnroe,Bjorn Borg
+1981-06,French Open,Bjorn Borg,Ivan Lendl
+1980-01,Australian Open,Brian Teacher,Kim Warwick
+1980-09,U.S. Open,John McEnroe,Bjorn Borg
+1980-07,Wimbledon,Bjorn Borg,John McEnroe
+1980-06,French Open,Bjorn Borg,Vitas Gerulaitis
+1979-01,Australian Open,Guillermo Vilas,John Sadri
+1979-09,U.S. Open,John McEnroe,Vitas Gerulaitis
+1979-07,Wimbledon,Bjorn Borg,Roscoe Tanner
+1979-06,French Open,Bjorn Borg,Victor Pecci
+1978-01,Australian Open,Guillermo Vilas,John Marks
+1978-09,U.S. Open,Jimmy Connors,Bjorn Borg
+1978-07,Wimbledon,Bjorn Borg,Jimmy Connors
+1978-06,French Open,Bjorn Borg,Guillermo Vilas
+1977-01,Australian Open (Dec),Vitas Gerulaitis,John Lloyd
+1977-09,U.S. Open,Guillermo Vilas,Jimmy Connors
+1977-07,Wimbledon,Bjorn Borg,Jimmy Connors
+1977-06,French Open,Guillermo Vilas,Brian Gottfried
+1977-01,Australian Open (Jan),Roscoe Tanner,Guillermo Vilas
+1976-09,U.S. Open,Jimmy Connors,Bjorn Borg
+1976-07,Wimbledon,Bjorn Borg,Ilie Nastase
+1976-06,French Open,Adriano Panatta,Harold Soloman
+1976-01,Australian Open,Mark Edmondson,John Newcombe
+1975-09,U.S. Open,Manuel Orantes,Jimmy Connors
+1975-07,Wimbledon,Arthur Ashe,Jimmy Connors
+1975-06,French Open,Bjorn Borg,Guillermo Vilas
+1975-01,Australian Open,John Newcombe,Jimmy Connors
+1974-09,U.S. Open,Jimmy Connors,Ken Rosewall
+1974-07,Wimbledon,Jimmy Connors,Ken Rosewall
+1974-06,French Open,Bjorn Borg,Manuel Orantes
+1974-01,Australian Open,Jimmy Connors,Phil Dent
+1973-09,U.S. Open,John Newcombe,Jan Kodes
+1973-07,Wimbledon,Jan Kodes,Alex Metreveli
+1973-06,French Open,Ilie Nastase,Nikola Pilic
+1973-01,Australian Open,John Newcombe,Onny Parun
+1972-09,U.S. Open,Ilie Nastase,Arthur Ashe
+1972-07,Wimbledon,Stan Smith,Ilie Nastase
+1972-06,French Open,Andres Gimeno,Patrick Proisy
+1972-01,Australian Open,Ken Rosewall,Mal Anderson
+1971-09,U.S. Open,Stan Smith,Jan Kodes
+1971-07,Wimbledon,John Newcombe,Stan Smith
+1971-06,French Open,Jan Kodes,Ilie Nastase
+1971-01,Australian Open,Ken Rosewall,Arthur Ashe
+1970-09,U.S. Open,Ken Rosewall,Tony Roche
+1970-07,Wimbledon,John Newcombe,Ken Rosewall
+1970-06,French Open,Jan Kodes,Zeljiko Franulovic
+1970-01,Australian Open,Arthur Ashe,Dick Crealy
+1969-09,U.S. Open,Rod Laver,Tony Roche
+1969-07,Wimbledon,Rod Laver,John Newcombe
+1969-06,French Open,Rod Laver,Ken Rosewall
+1969-01,Australian Open,Rod Laver,Andres Gimeno
+1968-09,U.S. Open,Arthur Ashe,Tom Okker
+1968-07,Wimbledon,Rod Laver,Tony Roche
+1968-06,French Open,Ken Rosewall,Rod Laver
+1968-01,Australian Open,Bill Bowrey,Juan Gisbert
+1967-09,U.S. Open,John Newcombe,Clark Graebner
+1967-07,Wimbledon,John Newcombe,Wilhelm Bungert
+1967-06,French Open,Roy Emerson,Tony Roche
+1967-01,Australian Open,Roy Emerson,Arthur Ashe
+1966-09,U.S. Open,Fred Stolle,John Newcombe
+1966-07,Wimbledon,Manuel Santana,Dennis Ralston
+1966-06,French Open,Tony Roche,Istvan Gulyas
+1966-01,Australian Open,Roy Emerson,Arthur Ashe
+1965-09,U.S. Open,Manuel Santana,Cliff Drysdale
+1965-07,Wimbledon,Roy Emerson,Fred Stolle
+1965-06,French Open,Fred Stolle,Tony Roche
+1965-01,Australian Open,Roy Emerson,Fred Stolle
+1964,U.S. Open,Roy Emerson,Fred Stolle
+1964,Wimbledon,Roy Emerson,Fred Stolle
+1964,French Open,Manuel Santana,Nicola Pietrangeli
+1964,Australian Open,Roy Emerson,Fred Stolle
+1963,U.S. Open,Rafael Osuna,"Frank Froehling, III"
+1963,Wimbledon,C.R. McKinley,Fred Stolle
+1963,French Open,Roy Emerson,Pierre Darmon
+1963,Australian Open,Roy Emerson,Ken Fletcher
+1962,U.S. Open,Rod Laver,Roy Emerson
+1962,Wimbledon,Rod Laver,Martin Mulligan
+1962,French Open,Rod Laver,Roy Emerson
+1962,Australian Open,Rod Laver,Roy Emerson
+1961,U.S. Open,Roy Emerson,Rod Laver
+1961,Wimbledon,Rod Laver,Chuck McKinley
+1961,French Open,Manuel Santana,Nicola Pietrangeli
+1961,Australian Open,Roy Emerson,Rod Laver
+1960,U.S. Open,Neale Fraser,Rod Laver
+1960,Wimbledon,Neale Fraser,Rod Laver
+1960,French Open,Nicola Pietrangeli,Luis Ayala
+1960,Australian Open,Rod Laver,Neale Fraser
+1959,U.S. Open,Neale Fraser,Alejandro Olmedo
+1959,Wimbledon,Alejandro Olmedo,Rod Laver
+1959,French Open,Nicola Pietrangeli,Ian Vermaak
+1959,Australian Open,Alex Olmedo,Neale Fraser
+1958,U.S. Open,Ashley J. Cooper,Malcolm J. Anderson
+1958,Wimbledon,Ashley J. Cooper,Neale Fraser
+1958,French Open,Mervyn Rose,Luis Ayala
+1958,Australian Open,Ashley J. Cooper,Mal Anderson
+1957,U.S. Open,Malcolm J. Anderson,Ashley J. Cooper
+1957,Wimbledon,Lewis Hoad,Ashley Cooper
+1957,French Open,Sven Davidson,Herbert Flam
+1957,Australian Open,Ashley J. Cooper,Neale Fraser
+1956,U.S. Open,Ken Rosewall,Lewis Hoad
+1956,Wimbledon,Lewis Hoad,Ken Rosewall
+1956,French Open,Lewis Hoad,Sven Davidson
+1956,Australian Open,Lewis Hoad,Ken Rosewall
+1955,U.S. Open,Tony Trabert,Ken Rosewall
+1955,Wimbledon,Tony Trabert,Kurt Nielsen
+1955,French Open,Tony Trabert,Sven Davidson
+1955,Australian Open,Ken Rosewall,Lew Hoad
+1954,U.S. Open,E. Victor Seixas Jr.,Rex Hartwig
+1954,Wimbledon,Jaroslav Drobny,Ken Rosewall
+1954,French Open,Tony Trabert,Sven Davidson
+1954,Australian Open,Mervyn Rose,Rex Hartwig
+1953,U.S. Open,Tony Trabert,"E. Victor Seixas, Jr."
+1953,Wimbledon,E. Victor Seixas Jr.,Kurt Nielsen
+1953,French Open,Ken Rosewall,"E. Victor Seixas, Jr."
+1953,Australian Open,Ken Rosewall,Mervyn Rose
+1952,U.S. Open,Frank Sedgman,Gardnar Mulloy
+1952,Wimbledon,Frank Sedgman,Jaroslav Drobny
+1952,French Open,Jaroslav Drobny,Frank Sedgman
+1952,Australian Open,Ken McGregor,Frank Sedgman
+1951,U.S. Open,Frank Sedgman,"E. Victor Seixas, Jr."
+1951,Wimbledon,R. Savitt,Ken McGregor
+1951,French Open,Jaroslav Drobny,Eric Sturgess
+1951,Australian Open,Dick Savitt,Ken McGregor
+1950,U.S. Open,Arthur Larsen,Herbert Flam
+1950,Wimbledon,J.E. Patty,Frank Sedgman
+1950,French Open,Budge Patty,Jaroslav Drobny
+1950,Australian Open,Frank Sedgman,Ken McGregor
+1949,U.S. Open,Richard A. Gonzales,Frederick Schroeder
+1949,Wimbledon,F.R. Schroeder,Jaroslav Drobny
+1949,French Open,Frank Parker,Budge Patty
+1949,Australian Open,Frank Sedgman,John Bromwich
+1948,U.S. Open,Richard A. Gonzales,Eric W. Sturgess
+1948,Wimbledon,R. Falkenburg,John Bromwich
+1948,French Open,Frank Parker,Jaroslav Drobny
+1948,Australian Open,Adrian Quist,John Bromwich
+1947,U.S. Open,Jack Kramer,Frank Parker
+1947,Wimbledon,Jack Kramer,Tom P. Brown
+1947,French Open,Jozsef Asboth,Eric Sturgess
+1947,Australian Open,Dinny Pails,John Bromwich
+1946,U.S. Open,Jack Kramer,"Tom Brown, Jr."
+1946,Wimbledon,Yvon Petra,Geoff E. Brown
+1946,French Open,Marcel Bernard,Jaroslav Drobny
+1946,Australian Open,John Bromwich,Dinny Pails
+1945,U.S. Open,Frank Parker,William F. Talbert
+1944,U.S. Open,Frank Parker,William F. Talbert
+1943,U.S. Open,Lt. Joseph R. Hunt,Seaman Jack Kramer
+1942,U.S. Open,"Frederick R. Schroeder, Jr.",Frank Parker
+1941,U.S. Open,Robert Riggs,"Francis Kovacs, 2d"
+1940,U.S. Open,Donald McNeill,Robert Riggs
+1940,Australian Open,Adrian Quist,Jack Crawford
+1939,U.S. Open,Robert Riggs,S. Welby van Horn
+1939,Wimbledon,Robert Riggs,Elwood Cooke
+1939,French Open,William McNeill,Robert Riggs
+1939,Australian Open,John Bromwich,Adrian Quist
+1938,U.S. Open,Donald Budge,C. Gene Mako
+1938,Wimbledon,Donald Budge,Henry Austin
+1938,French Open,Donald Budge,Roderik Menzel
+1938,Australian Open,Donald Budge,John Bromwich
+1937,U.S. Open,Donald Budge,Gottfried Von Cramm
+1937,Wimbledon,Donald Budge,Gottfried Von Cramm
+1937,French Open,Henner Henkel,Henry Austin
+1937,Australian Open,Vivian McGrath,John Bromwich
+1936,U.S. Open,Fred Perry,J. Donald Budge
+1936,Wimbledon,Fred Perry,Gottfried Von Cramm
+1936,French Open,Gottfried Von Cramm,Fred Perry
+1936,Australian Open,Adrian Quist,Jack Crawford
+1935,U.S. Open,Wilmer L. Allison,Sidney B. Wood
+1935,Wimbledon,Fred Perry,Gottfried Von Cramm
+1935,French Open,Fred Perry,Gottfried von Cramm
+1935,Australian Open,Jack Crawford,Fred Perry
+1934,U.S. Open,Fred Perry,Wilmer L. Allison
+1934,Wimbledon,Fred Perry,Jack Crawford
+1934,French Open,Gottfried Von Cramm,Jack Crawford
+1934,Australian Open,Fred Perry,Jack Crawford
+1933,U.S. Open,Fred Perry,John H. Crawford
+1933,Wimbledon,Jack Crawford,Ellsworth Vines
+1933,French Open,John Crawford,Henri Cochet
+1933,Australian Open,Jack Crawford,Keith Gledhill
+1932,U.S. Open,H. Ellsworth Vines,Henri Cochet
+1932,Wimbledon,H. Ellsworth Vines,Henry Austin
+1932,French Open,Henri Cochet,Giorgo de Stefani
+1932,Australian Open,Jack Crawford,Harry Hopman
+1931,U.S. Open,H. Ellsworth Vines,"George M. Lott, Jr."
+1931,Wimbledon,S.B. Wood,Francis X. Shields
+1931,French Open,Jean Borotra,Christian Boussus
+1931,Australian Open,Jack Crawford,Harry Hopman
+1930,U.S. Open,John H. Doeg,Francis X. Shields
+1930,Wimbledon,William T. Tilden,Wilmer Allison
+1930,French Open,Henri Cochet,William Tilden
+1930,Australian Open,Gar Moon,Harry Hopman
+1929,U.S. Open,William T. Tilden,Francis T. Hunter
+1929,Wimbledon,Henri Cochet,Jean Borotra
+1929,French Open,Rene Lacoste,Jean Borotra
+1929,Australian Open,John Gregory,Richard Schlesinger
+1928,U.S. Open,Henri Cochet,Francis T. Hunter
+1928,Wimbledon,Rene Lacoste,Henri Cochet
+1928,French Open,Henri Cochet,Ren� Lacoste
+1928,Australian Open,Jean Borotra,R.Cummings
+1927,U.S. Open,Rene Lacoste,William T. Tilden
+1927,Wimbledon,Henri Cochet,Jean Borotra
+1927,French Open,Rene Lacoste,William Tilden
+1927,Australian Open,Gerald Patterson,John Hawkes
+1926,U.S. Open,Rene Lacoste,Jean Borotra
+1926,Wimbledon,Jean Borotra,Howard Kinsey
+1926,French Open,Henri Cochet,Ren� Lacoste
+1926,Australian Open,John Hawkes,Jim Willard
+1925,U.S. Open,William T. Tilden,William M. Johnston
+1925,Wimbledon,Rene Lacoste,Jean Borotra
+1925,French Open,Rene Lacoste,Jean Borotra
+1925,Australian Open,James Anderson,Gerald Patterson
+1924,U.S. Open,William T. Tilden,William M. Johnston
+1924,Wimbledon,Jean Borotra,Rene Lacoste
+1924,French Open,Jean Borotra,Ren� Lacoste
+1924,Australian Open,James Anderson,Richard Schlesinger
+1923,U.S. Open,William T. Tilden,William M. Johnston
+1923,Wimbledon,William M. Johnston,Francis T. Hunter
+1923,French Open,Francois Blanchy,Max Decugis
+1923,Australian Open,Pat O'Hara Wood,C.St.John
+1922,U.S. Open,William T. Tilden,William M. Johnston
+1922,Wimbledon,Gerald Patterson,Randolph Lycett
+1922,French Open,Henri Cochet,Jean Samazeuilh
+1922,Australian Open,Pat O'Hara Wood,Gerald Patterson
+1921,U.S. Open,William T. Tilden,William M. Johnston
+1921,Wimbledon,William T. Tilden,Brian Norton
+1921,French Open,Jean Samazeuilh,Andr� Gobert
+1921,Australian Open,Rhys Gemmell,A. Hedeman
+1920,U.S. Open,William T. Tilden,William M. Johnston
+1920,Wimbledon,William T. Tilden,Gerald Patterson
+1920,French Open,Andre Gobert,Max Decugis
+1920,Australian Open,Pat O'Hara Wood,Ron Thomas
+1919,U.S. Open,William M. Johnston,William T. Tilden
+1919,Wimbledon,Gerald Patterson,Norman Brookes
+1919,Australian Open,A.R.F. Kingscote,E. Pockley
+1918,U.S. Open,R. Lindley Murray,William T. Tilden
+1917,U.S. Open,R. Lindley Murray,Nathaniel W. Niles
+1916,U.S. Open,Richard N. Williams,William M. Johnston
+1915,U.S. Open,William M. Johnston,Maurice E. McLoughlin
+1915,Australian Open,Francis Lowe,Horace Rice
+1914,U.S. Open,Richard N. Williams,Maurice E. McLoughlin
+1914,Wimbledon,Norman Brookes,Anthony Wilding
+1914,French Open,Max Decugis,Jean Samazeuilh
+1914,Australian Open,Pat O'Hara Wood,Gerald Patterson
+1913,U.S. Open,Maurice E. McLoughlin,Richard N. Williams
+1913,Wimbledon,Anthony Wilding,Maurice McLoughlin
+1913,French Open,Max Decugis,Georges Gault
+1913,Australian Open,E.F. Parker,Harry Parker
+1912,U.S. Open,Maurice E. McLoughlin,Wallace F. Johnson
+1912,Wimbledon,Anthony Wilding,Arthur Gore
+1912,French Open,Max Decugis,Andr� Gobert
+1912,Australian Open,Cecil Parke,A. Beamish
+1911,U.S. Open,William A. Larned,Maurice E. McLoughlin
+1911,Wimbledon,Anthony Wilding,H. Roper Barrett
+1911,French Open,Andre Gobert,Maurice Germot
+1911,Australian Open,Norman Brookes,Horace Rice
+1910,U.S. Open,William A. Larned,Thomas C. Bundy
+1910,Wimbledon,Anthony Wilding,Arthur Gore
+1910,French Open,Maurice Germot,Fran�ois Blanchy
+1910,Australian Open,Rodney Heath,Horace Rice
+1909,U.S. Open,William A. Larned,William J. Clothier
+1909,Wimbledon,Arthur Gore,M.J.G. Ritchie
+1909,French Open,Max Decugis,Maurice Germot
+1909,Australian Open,Tony Wilding,Ernie Parker
+1908,U.S. Open,William A. Larned,Beals C. Wright
+1908,Wimbledon,Arthur Gore,Roper Barrett
+1908,French Open,Max Decugis,Maurice Germot
+1908,Australian Open,Fred Alexander,Alfred Dunlop
+1907,U.S. Open,William A. Larned,Robert LeRoy
+1907,Wimbledon,Norman Brookes,Arthur Gore
+1907,French Open,Max Decugis,Robert Wallet
+1907,Australian Open,Horace Rice,Harry Parker
+1906,U.S. Open,William A. Larned,Beals C. Wright
+1906,Wimbledon,Laurie Doherty,Frank Riseley
+1906,French Open,Maurice Germot,Max Decugis
+1906,Australian Open,Tony Wilding,Harry Parker
+1905,U.S. Open,Beals C. Wright,Holcombe Ward
+1905,Wimbledon,Laurie Doherty,Norman Brookes
+1905,French Open,Maurice Germot,Andr� Vacherot
+1905,Australian Open,Rodney Heath,A. Curtis
+1904,U.S. Open,Holcombe Ward,William J. Clothier
+1904,Wimbledon,Laurie Doherty,Frank Riseley
+1904,French Open,Max Decugis,Andr� Vacherot
+1903,U.S. Open,Hugh L. Doherty,William A. Larned
+1903,Wimbledon,Laurie Doherty,Frank Riseley
+1903,French Open,Max Decugis,Andr� Vacherot
+1902,U.S. Open,William A. Larned,Reginald F. Doherty
+1902,Wimbledon,Laurie Doherty,Arthur Gore
+1902,French Open,M. Vacherot,Max Decugis
+1901,U.S. Open,William A. Larned,Beals C. Wright
+1901,Wimbledon,Arthur Gore,Reggie Doherty
+1901,French Open,Andre Vacherot,P. Lebreton
+1900,U.S. Open,Malcolm D. Whitman,William A. Larned
+1900,Wimbledon,Reggie Doherty,Sidney Smith
+1900,French Open,Paul Ayme,A. Pr�vost
+1899,U.S. Open,Malcolm D. Whitman,J. Parmly Paret
+1899,Wimbledon,Reggie Doherty,Arthur Gore
+1899,French Open,Paul Ayme,P. Lebreton
+1898,U.S. Open,Malcolm D. Whitman,Dwight F. Davis
+1898,Wimbledon,Reggie Doherty,Laurie Doherty
+1898,French Open,Paul Ayme,P. Lebreton
+1897,U.S. Open,Robert D. Wrenn,Wilberforce Eaves
+1897,Wimbledon,Reggie Doherty,Harold Mahoney
+1897,French Open,Paul Ayme,F. Wardan
+1896,U.S. Open,Robert D. Wrenn,Fred H. Hovey
+1896,Wimbledon,Harold Mahoney,Wilfred Baddeley
+1896,French Open,Andre Vacherot,G. Brosselin
+1895,U.S. Open,Fred H. Hovey,Robert D. Wrenn
+1895,Wimbledon,Wilfred Baddeley,Wilberforce Eaves
+1895,French Open,Andre Vacherot,L. Riboulet
+1894,U.S. Open,Robert D. Wrenn,Manliff Goodbody
+1894,Wimbledon,Joshua Pim,Wilfred Baddeley
+1894,French Open,Andre Vacherot,G. Brosselin
+1893,U.S. Open,Robert D. Wrenn,Fred H. Hovey
+1893,Wimbledon,Joshua Pim,Wilfred Baddeley
+1893,French Open,L. Riboulet,J. Schopfer
+1892,U.S. Open,Oliver S. Campbell,Fred H. Hovey
+1892,Wimbledon,Wilfred Baddeley,Joshua Pim
+1892,French Open,J. Schopfer,Fassitt
+1891,U.S. Open,Oliver S. Campbell,Clarence Hobart
+1891,Wimbledon,Wilfred Baddeley,Joshua Pim
+1891,French Open,H. Briggs,P. Baigneres
+1890,U.S. Open,Oliver S. Campbell,"Henry W. Slocum, Jr."
+1890,Wimbledon,William Hamilton,William Renshaw
+1889,U.S. Open,Henry W. Slocum Jr.,Quincy Shaw
+1889,Wimbledon,William Renshaw,Ernest Renshaw
+1888,U.S. Open,Henry W. Slocum Jr.,Howard A. Taylor
+1888,Wimbledon,Ernest Renshaw,Herbert Lawford
+1887,U.S. Open,Richard D. Sears,"Henry W. Slocum, Jr."
+1887,Wimbledon,Herbert Lawford,Ernest Renshaw
+1886,U.S. Open,Richard D. Sears,R. Livingston Beeckman
+1886,Wimbledon,William Renshaw,Herbert Lawford
+1885,U.S. Open,Richard D. Sears,Godfrey M. Brinley
+1885,Wimbledon,William Renshaw,Herbert Lawford
+1884,U.S. Open,Richard D. Sears,Howard A. Taylor
+1884,Wimbledon,William Renshaw,Herbert Lawford
+1883,U.S. Open,Richard D. Sears,James Dwight
+1883,Wimbledon,William Renshaw,Ernest Renshaw
+1882,U.S. Open,Richard D. Sears,Clarence M. Clark
+1882,Wimbledon,William Renshaw,Ernest Renshaw
+1881,U.S. Open,Richard D. Sears,William E. Glyn
+1881,Wimbledon,William Renshaw,John Hartley
+1880,Wimbledon,John Hartley,Herbert Lawford
+1879,Wimbledon,John Hartley,V. St. Leger Gould
+1878,Wimbledon,Frank Hadow,Spencer Gore
+1877,Wimbledon,Spencer Gore,William Marshall
