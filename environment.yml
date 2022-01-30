@@ -85,3 +85,6 @@ dependencies:
   - datashader==0.13.0
   - holoviews==1.14.7
   - hvplot==0.7.3
+  - vega_datasets
+  - pgvega
+  - pandas-bokeh
