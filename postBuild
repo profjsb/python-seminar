@@ -1,4 +1,3 @@
 #!/bin/bash
-jupyter nbextension install --sys-prefix --py vega3
-jupyter nbextension enable vega --py --sys-prefix
-jupyter nbextension enable vega3 --py --sys-prefix
+echo "done"
+
