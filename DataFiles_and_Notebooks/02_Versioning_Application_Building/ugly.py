@@ -1,8 +1,12 @@
+"""love those DOCSTRINGs
+"""
+
 import pandas
 import os
-"""love those DOCSTRINGs"""
-# not a great snippet of code here
-if not results.fill:
+
+def ugly_stuff(title="my title"):
+    #not a great snippet of code here
+    if not results.fill:
             histOutline.OutlinedHistogram(data,title   = title)
-else:
+    else:
             histOutline.RegularHistogram(data,title  =   title)
