@@ -15,7 +15,7 @@ dependencies:
 - psycopg2==2.9.*
 - pytorch>=1.10.0
 - pytorch-lightning
-- pyaudio==0.2.*
+- pyaudio>=0.2.11
 - cython
 - protobuf
 - mpich
@@ -87,8 +87,14 @@ dependencies:
   - hvplot==0.7.3
   - vega_datasets
   - vega
-  - pandas-bokeh
   - pythreejs
   - ipywidgets
   - ipyvolume
   - pandas-bokeh
+  - click
+  - fire
+  - pycodestyle
+  - flake8
+  - nb_black
+  - pycodestyle_magic
+  - twine
