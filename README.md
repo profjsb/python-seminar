@@ -21,11 +21,11 @@ Date | Content | Reading | Leader
 Jan 24 <font color="crimson">Online only</font> | **Numpy, Scipy, & Pandas** <br> [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/profjsb/python-seminar/master?filepath=DataFiles_and_Notebooks%2F03_Numpy_Scipy_Stats%2FNumpyIntro.ipynb)   | - scipy &sect;&sect; [1.3](http://www.scipy-lectures.org/intro/numpy/index.html), [1.5](http://www.scipy-lectures.org/intro/scipy.html), [2.2](http://www.scipy-lectures.org/advanced/advanced_numpy/index.html)<br>- [numpy](https://hal.inria.fr/inria-00564007/document)</br> - skim chap 4/5 of [McKinney](http://shop.oreilly.com/product/0636920023784.do?code=B2S3) | Josh
 Jan 31	| **Data visualization** (Matplotlib, Bokeh, Altair)   | - Skim [Tufte's Visualization book](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142)<br> - [colormap talk (Scipy 2015)](https://www.youtube.com/watch?v=xAoljeRJ3lU) | Josh
 Feb 7  | **Application building and Testing** | None | Josh 
-Feb 14  | **Parallelism** (asyncio, dask, ray, jax)  | - [ipyparallel docs](http://ipyparallel.readthedocs.io/en/latest/intro.html) |Josh
+Feb 14  | **Parallelism** (asyncio, dask, ray, jax)  | None |Josh
 Feb 21  | **Holiday** (no class) |  | 
-Feb 28 | **Database interaction** (sqlite, postgres, SQLAlchemy, peewee),<br>**Large datasets** (xarray, HDF5) |  None | Josh
-Mar 7  | **Machine Learning I** (sklearn, NLP) | None |Josh
-Mar 14	| **Machine Learning II** (keras [tensorflow], pytorch) | None |Josh
+Feb 28 | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (xarray, HDF5) |  None | Josh
+Mar 7  | **Machine Learning I** (sklearn: regression, classification; dask-learn, auto-ml) | None |Josh
+Mar 14	| **Machine Learning II** (keras [tensorflow]) | [Deep Learning with Keras](https://www.amazon.com/gp/product/1617296864/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617296864&linkCode=as2&tag=keras-io-20&linkId=aab94d0b04dccad37de3dffa22699e18) |Josh
 Mar 21  | **Spring Break** |  | 
 Mar 28  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
 Apr 1 <br><font color="crimson">Friday 1-3pm</font>| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
