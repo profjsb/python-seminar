@@ -60,7 +60,8 @@ dependencies:
   - altair>=4.2.0
   - vega3>=0.13.0
   - pytz>=2021.3
-  - keras==2.7.*
+  - keras==2.8.*
+  - scikeras
   - keras-preprocessing>=1.1.0
   - tensorflow-io-gcs-filesystem>=0.23.0
   - lightkurve
