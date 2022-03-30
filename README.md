@@ -25,10 +25,10 @@ Feb 14  | **Parallelism** (asyncio, dask, ray, jax)  | None |Josh
 Feb 21  | **Holiday** (no class) |  | 
 Feb 28 | **Database interaction** (sqlite, postgres, SQLAlchemy),<br>**Large datasets** (xarray, HDF5) |  None | Josh
 Mar 7  | **Machine Learning I** (sklearn: regression, classification; dask-learn, auto-ml) | None |Josh
-Mar 14	| **Machine Learning II** (keras [tensorflow]) | [Deep Learning with Keras](https://www.amazon.com/gp/product/1617296864/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617296864&linkCode=as2&tag=keras-io-20&linkId=aab94d0b04dccad37de3dffa22699e18) |Josh
+Mar ~~14~~28	| **Machine Learning II** (keras [tensorflow]) | [Deep Learning with Keras](https://www.amazon.com/gp/product/1617296864/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617296864&linkCode=as2&tag=keras-io-20&linkId=aab94d0b04dccad37de3dffa22699e18) |Josh
 Mar 21  | **Spring Break** |  | 
-Mar 28  | **Interacting with the world** (requests, email, IoT/pyserial)	| None | Josh
-Apr 1 <br><font color="crimson">Friday 1-3pm</font>| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
+~~Mar 28~~  |  ~~Interacting with the world (requests, email, IoT/pyserial)~~	| ~~None~~ | ~~Josh~~
+Apr 1 <br><font color="crimson">Friday 10-1pm</font>| **Web frameworks & RESTful APIs, Flask**		| None |  Josh
 Apr 4  | No lecture |
 Apr 11	|	**Bayesian programming & Symbolic math**	| [Probabalistic Programming eBook](http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)<br>install:<br>pip install pymc3| Josh
 Apr 18	| **Image processing** (OpenCV, skimage)  | None | [Stefan van der Walt](https://github.com/stefanv)
