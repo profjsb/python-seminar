@@ -22,4 +22,4 @@ manager = flask_restless.APIManager(app,flask_sqlalchemy_db=db)
 
 manager.create_api(Member,methods=["GET","POST"])
 
-app.run()
+app.run(port=5021)

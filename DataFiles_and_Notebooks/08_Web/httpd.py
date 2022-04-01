@@ -2,7 +2,7 @@ import time
 import http.server
 
 HOST_NAME = 'localhost' #
-PORT_NUMBER = 8091 # Maybe set this to 9000.
+PORT_NUMBER = 8092 # Maybe set this to 9000.
 
 def s2b(s):
     return bytes(s, 'utf-8')
@@ -28,6 +28,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 if __name__ == '__main__':
     server_class = http.server.HTTPServer
     httpd = server_class((HOST_NAME, PORT_NUMBER), MyHandler)
+    print(f"Starting server. Connect via http://{HOST_NAME}:{PORT_NUMBER} ...")
     print(time.asctime()), "Server Starts - %s:%s" % (HOST_NAME, PORT_NUMBER)
     httpd.serve_forever()
     #except KeyboardInterrupt:

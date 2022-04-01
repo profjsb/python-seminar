@@ -33,4 +33,4 @@ def show_document_pages(docid,pageid):
 app.add_url_rule('/hola', "say_hola", hi)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5012)

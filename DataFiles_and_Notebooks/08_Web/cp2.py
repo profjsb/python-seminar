@@ -6,6 +6,9 @@ This tutorial shows you how to pass GET/POST variables to methods.
 import os
 import cherrypy
 
+PORTNUM = 8099
+
+
 class WelcomePage:
 
     @cherrypy.expose
@@ -32,7 +35,7 @@ class WelcomePage:
         
         if name:
             # Greet the user!
-            return "<font color='%s'>Hey %s, what's up?</font>" % (color, name)
+            return f"Hey {name}, what's up?"
         else:
             if name is None:
                 # No name was specified
@@ -47,7 +50,7 @@ if __name__ == '__main__':
     # CherryPy always starts with app.root when trying to map request URIs
     # to objects, so we need to mount a request handler root. A request
     # to '/' will be mapped to HelloWorld().index().
-    cherrypy.config.update({"server.socket_port": 8083})
+    cherrypy.config.update({"server.socket_port": PORTNUM})
 
     cherrypy.quickstart(WelcomePage())
 else:
