@@ -21,6 +21,7 @@ dependencies:
 - mpich
 - mpi4py
 - cartopy
+- mkl-service
 
 - pip
 

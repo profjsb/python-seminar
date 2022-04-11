@@ -6,7 +6,7 @@ This tutorial shows you how to pass GET/POST variables to methods.
 import os
 import cherrypy
 
-PORTNUM = 8099
+PORTNUM = 8102
 
 
 class WelcomePage:
@@ -35,7 +35,7 @@ class WelcomePage:
         
         if name:
             # Greet the user!
-            return f"Hey {name}, what's up?"
+            return f"Hey <font color='{color}'>{name}</font>, what's up?"
         else:
             if name is None:
                 # No name was specified

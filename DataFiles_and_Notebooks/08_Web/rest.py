@@ -4,7 +4,7 @@ import flask_restless
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test_new.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test_new1.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = flask_sqlalchemy.SQLAlchemy(app)
@@ -22,4 +22,4 @@ manager = flask_restless.APIManager(app,flask_sqlalchemy_db=db)
 
 manager.create_api(Member,methods=["GET","POST"])
 
-app.run(port=5021)
+app.run(port=5029)

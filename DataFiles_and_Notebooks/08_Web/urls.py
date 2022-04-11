@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.debug = True
+app.debug = False
 
 ## this will route / and /hello 
 ## the function "hi()" is called a "view function"
@@ -22,7 +22,7 @@ def show_post(post_id):
 
 # here we show off multiple input and defaults
 @app.route("/doc/<int:docid>/page/<int:pageid>")
-@app.route("/doc/<int:docid>", defaults={'pageid': 10})
+@app.route("/doc/<int:docid>", defaults={'pageid': 1})
 def show_document_pages(docid,pageid):
     return "Doc = %i  and Page = %i" % (docid,pageid)
 
@@ -33,4 +33,4 @@ def show_document_pages(docid,pageid):
 app.add_url_rule('/hola', "say_hola", hi)
 
 if __name__ == "__main__":
-    app.run(port=5012)
+    app.run(port=5015)

@@ -15,7 +15,7 @@ class Simpleserver(BaseHTTPRequestHandler):
 myServer = HTTPServer((HOST, PORT), Simpleserver)
 
 try:
-    print(f"Starting server. Connect via http://{HOST}:{PORT}...")
+    print(f"Starting server. Connect via http://{HOST}:{PORT} ...")
     myServer.serve_forever()
 except KeyboardInterrupt:
     pass

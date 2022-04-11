@@ -7,7 +7,7 @@ app.debug = True
 def hello():
     return render_template('base.html', 
                             page_title="Templates", 
-                            content="hello!")
+                            content="<b>hello!</b>")
 
 @app.route('/welcome', methods=['GET', 'POST'])
 def welcome():
@@ -27,4 +27,4 @@ def welcome():
         return render_template("form.html")
 
 if __name__ == "__main__":
-    app.run(port=5019)
+    app.run(port=5025)
