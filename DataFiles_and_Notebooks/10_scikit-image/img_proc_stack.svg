@@ -2,35 +2,32 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="407"
-   height="285.13989"
+   width="818.20386"
+   height="285.14218"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="img_proc_stack.svg">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="img_proc_stack.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath3909">
-      <path
-         sodipodi:type="arc"
-         style="fill:#c0eebf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+      <circle
+         style="fill:#c0eebf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3911"
-         sodipodi:cx="-163.64471"
-         sodipodi:cy="180.60054"
-         sodipodi:rx="146.47212"
-         sodipodi:ry="146.47212"
-         d="m -17.172592,180.60054 a 146.47212,146.47212 0 1 1 -292.944248,0 146.47212,146.47212 0 1 1 292.944248,0 z"
-         transform="matrix(0.97945064,0,0,0.97945064,-30.636913,-19.522283)" />
+         transform="matrix(0.97945064,0,0,0.97945064,-30.636913,-19.522283)"
+         cx="-163.64471"
+         cy="180.60054"
+         r="146.47212" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -40,21 +37,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="210.09431"
-     inkscape:cy="143.68327"
+     inkscape:zoom="3.0153024"
+     inkscape:cx="261.49948"
+     inkscape:cy="156.86652"
      inkscape:document-units="px"
-     inkscape:current-layer="g3948"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="723"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -63,7 +61,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,7 +68,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-83.28125,-214.15625)">
+     transform="translate(-83.285713,-214.16709)">
     <g
        id="g3919"
        transform="translate(0,-11.785095)">
@@ -81,18 +78,18 @@
          height="70.002007"
          width="405.00201"
          id="rect2985"
-         style="fill:#ecdbba;fill-opacity:1;stroke:#000000;stroke-width:1.99799705;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#ecdbba;fill-opacity:1;stroke:#000000;stroke-width:1.998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="125%"
          id="text3755"
          y="435.21933"
          x="243.38533"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            y="435.21933"
            x="243.38533"
            id="tspan3757"
-           sodipodi:role="line">NumPy</tspan></text>
+           sodipodi:role="line"
+           style="font-size:24px;line-height:1.25">NumPy</tspan></text>
     </g>
     <g
        id="g3954"
@@ -105,36 +102,36 @@
            height="70"
            width="195.71428"
            id="rect3759"
-           style="fill:#bad2ec;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+           style="fill:#bad2ec;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
-           sodipodi:linespacing="125%"
            id="text3761"
            y="347.33606"
            x="105.71429"
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
            xml:space="preserve"><tspan
              y="347.33606"
              x="105.71429"
              sodipodi:role="line"
-             id="tspan3771">SciPy</tspan></text>
+             id="tspan3771"
+             style="font-size:24px;line-height:1.25">SciPy</tspan></text>
         <rect
            y="313.91083"
            x="188.5966"
            height="25.553272"
            width="82.577179"
            id="rect3775"
-           style="fill:#ffd9a5;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+           style="fill:#ffd9a5;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
            xml:space="preserve"
-           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
            x="194.95943"
            y="331.11325"
-           id="text3777"
-           sodipodi:linespacing="125%"><tspan
+           id="text3777"><tspan
              sodipodi:role="line"
              id="tspan3779"
              x="194.95943"
-             y="331.11325">ndimage</tspan></text>
+             y="331.11325"
+             style="font-size:16px;line-height:1.25">ndimage</tspan></text>
       </g>
       <g
          id="g3943">
@@ -144,18 +141,18 @@
            height="70"
            width="195.71428"
            id="rect3786"
-           style="fill:#dbbaec;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+           style="fill:#dbbaec;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
-           sodipodi:linespacing="125%"
            id="text3788"
            y="347.33606"
            x="313.80573"
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
            xml:space="preserve"><tspan
              y="347.33606"
              x="313.80573"
              id="tspan3790"
-             sodipodi:role="line">matplotlib</tspan></text>
+             sodipodi:role="line"
+             style="font-size:24px;line-height:1.25">matplotlib</tspan></text>
       </g>
     </g>
     <g
@@ -166,18 +163,18 @@
          height="69.99955"
          width="404.99954"
          id="rect3765"
-         style="fill:#c0eebf;fill-opacity:1;stroke:#000000;stroke-width:2.00044727;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#c0eebf;fill-opacity:1;stroke:#000000;stroke-width:2.00045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="125%"
          id="text3767"
          y="256.80576"
          x="176.42496"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            y="256.80576"
            x="176.42496"
            id="tspan3769"
-           sodipodi:role="line">scikit-image</tspan></text>
+           sodipodi:role="line"
+           style="font-size:24px;line-height:1.25">scikit-image</tspan></text>
       <image
          transform="matrix(0.19025687,0,0,0.19025687,167.64344,220.22693)"
          clip-path="url(#clipPath3909)"
@@ -188,30 +185,41 @@
          x="-339.90356"
          y="8.3822908" />
     </g>
-    <g
-       id="g3929"
-       transform="translate(0,-17.172593)">
-      <g
-         id="g3924">
-        <rect
-           y="476.79559"
-           x="84.284714"
-           height="38.687286"
-           width="405.00201"
-           id="rect3913"
-           style="fill:#fff6a7;fill-opacity:1;stroke:#000000;stroke-width:1.99799705;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text3915"
-           y="502.84235"
-           x="222.15681"
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
-           xml:space="preserve"><tspan
-             y="502.84235"
-             x="222.15681"
-             id="tspan3917"
-             sodipodi:role="line">C / Cython</tspan></text>
-      </g>
-    </g>
+    <rect
+       y="459.62299"
+       x="84.284714"
+       height="38.687286"
+       width="405.00201"
+       id="rect3913"
+       style="fill:#fff6a7;fill-opacity:1;stroke:#000000;stroke-width:1.998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text3915"
+       y="485.66974"
+       x="173.91371"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="485.66974"
+         x="173.91371"
+         id="tspan3917"
+         sodipodi:role="line"
+         style="font-size:24px;line-height:1.25">C / Cython / Pythran</tspan></text>
+    <rect
+       y="215.16731"
+       x="500.42899"
+       height="69.145866"
+       width="400.06033"
+       id="rect957"
+       style="fill:#dbe3e2;fill-opacity:1;stroke:#000000;stroke-width:2.00045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text961"
+       y="256.80576"
+       x="518.7666"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="256.80576"
+         x="518.7666"
+         id="tspan959"
+         sodipodi:role="line"
+         style="font-size:24px;line-height:1.25">opencv, pytorch, tensorflow, etc.</tspan></text>
   </g>
 </svg>

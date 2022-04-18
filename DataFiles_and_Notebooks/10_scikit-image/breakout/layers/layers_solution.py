@@ -18,7 +18,7 @@ R = exposure.adjust_gamma(R, 0.1)
 
 # Merge R, G, B channels
 out = np.dstack((H, L, R))
-out = exposure.adjust_gamma(out, 2.1)
+out = exposure.adjust_gamma(out, 2.6)
 
 io.imsave('m8_recon.png', out)
 
